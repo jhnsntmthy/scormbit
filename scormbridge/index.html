@@ -46,8 +46,8 @@
       function send_to_iOS(obj, key, val) {
         try {
           window.webkit.messageHandlers[obj].postMessage({thang: key, val: val});
-        }
-        catch(e) {
+          alert("sent an "+obj+" message");
+        } catch(e) {
           console.log("app message", obj, key, val, e);
         }
       }
