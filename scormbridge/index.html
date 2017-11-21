@@ -14,7 +14,6 @@
     <script>
       window.API = {
         LMSInitialize: function() {
-          window.webkit.messageHandlers.observe.postMessage({thang: 'initialize', val: ''});
           send_to_iOS('initialize');
           return true;
         },
@@ -35,7 +34,6 @@
           return '';
         },
         LMSSetValue: function(key, val) {
-          window.webkit.messageHandlers.observe.postMessage({thang: key, val: val});
           send_to_iOS('data', key, val);
           return '';
         },
@@ -45,14 +43,17 @@
         }
       };
 
+
       function send_to_iOS(obj, key, val) {
         try {
-          // window.webkit.messageHandlers[obj].postMessage({thang: key, val: val});
-          // alert("sent an "+obj+" message");
+          webkit.messageHandlers.observe.postMessage('hello|'+[obj,key,val].join('|'));
+          alert("sent an "+obj+" message");
         } catch(e) {
-          // console.log("app message", obj, key, val, e);
+          console.log("app message", obj, key, val, e);
         }
-      }
+      };
+      send_to_iOS('loaded');
+
     </script>    
 
     <script type="text/javascript" src="js/vendor.js?DIGEST"></script>
