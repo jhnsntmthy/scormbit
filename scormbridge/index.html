@@ -47,6 +47,9 @@
         try {
           window.webkit.messageHandlers[obj].postMessage({thang: key, val: val});
         }
+        catch(e) {
+          console.log("app message", obj, key, val, e);
+        }
       }
     </script>    
 
