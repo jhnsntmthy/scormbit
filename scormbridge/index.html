@@ -14,7 +14,7 @@
     <script>
       window.API = {
         LMSInitialize: function() {
-          window.webkit.messageHandlers.observe.postMessage({thang: "initialized", val: ""});
+          window.webkit.messageHandlers.initialize.postMessage({});
           return true;
         },
         LMSGetLastError: function() {
@@ -27,18 +27,18 @@
           return '';
         },
         LMSCommit: function() {
-          window.webkit.messageHandlers.observe.postMessage({thang: "commit", val: ""});
+          window.webkit.messageHandlers.commit.postMessage({thang: "commit", val: ""});
           return true;
         },
         LMSGetValue: function() {
           return '';
         },
         LMSSetValue: function(key, val) {
-          window.webkit.messageHandlers.observe.postMessage({thang: key, val: val});
+          window.webkit.messageHandlers.data.postMessage({thang: key, val: val});
           return '';
         },
         LMSFinish: function() {
-          window.webkit.messageHandlers.observe.postMessage({thang: "finished", val: ""});
+          window.webkit.messageHandlers.finish.postMessage({});
           return true;
         }
       };
