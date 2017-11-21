@@ -14,7 +14,7 @@
     <script>
       window.API = {
         LMSInitialize: function() {
-          window.webkit.messageHandlers.initialize.postMessage({});
+          send_to_iOS('initialize');
           return true;
         },
         LMSGetLastError: function() {
@@ -27,21 +27,27 @@
           return '';
         },
         LMSCommit: function() {
-          window.webkit.messageHandlers.commit.postMessage({thang: "commit", val: ""});
+          send_to_iOS('commit');
           return true;
         },
         LMSGetValue: function() {
           return '';
         },
         LMSSetValue: function(key, val) {
-          window.webkit.messageHandlers.data.postMessage({thang: key, val: val});
+          send_to_iOS('data', key, val);
           return '';
         },
         LMSFinish: function() {
-          window.webkit.messageHandlers.finish.postMessage({});
+          send_to_iOS('finish');
           return true;
         }
       };
+
+      function send_to_iOS(obj, key, val) {
+        try {
+          window.webkit.messageHandlers[obj].postMessage({thang: key, val: val});
+        }
+      }
     </script>    
 
     <script type="text/javascript" src="js/vendor.js?DIGEST"></script>
