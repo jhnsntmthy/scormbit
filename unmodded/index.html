@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+
+    <title>Loading your lesson...</title>
+
+    <link rel="stylesheet" href="css/app.css?DIGEST">
+  </head>
+  <body>
+    <script>
+      // window.API = {
+      //   LMSInitialize: function() {
+      //     return true;
+      //   },
+      //   LMSGetLastError: function() {
+      //     return '';
+      //   }
+      // };
+    </script>    
+
+    <script type="text/javascript" src="js/vendor.js?DIGEST"></script>
+    <script type="text/javascript" src="js/app.js?DIGEST"></script>
+    <script type="text/javascript">
+
+      $(document).ready(function(){
+        require("app").initialize("scorm");
+      })
+    </script>
+  </body>
+</html>
+
