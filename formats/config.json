@@ -1,0 +1,1007 @@
+{
+	"config": {
+		"logo": "fit_content_assets/lesson.configuration.config.logo-1476855295733.png",
+		"customCSS": "",
+		"background": "fit_content_assets/lesson.configuration.config.background-1476855234377.jpeg",
+		"minimumScore": 0,
+		"disableInteractionSummary": true,
+		"hasAnswerFeedback": true,
+		"colors": {
+			"text": "#fff",
+			"background": "#333"
+		},
+		"pageNumbers": true,
+		"pagination": false,
+		"indicator": true
+	},
+	"isOnline": false,
+	"isAudio": false,
+	"slides": [
+		{
+			"templateDescription": "Display rich content and images.",
+			"templateName": "Text And Images",
+			"name": 0,
+			"data": {
+				"title": "**Understanding the Formats**",
+				"content": [
+					{
+						"text": "At Spotify we aim to own the conversation across mobile, desktop and connected devices and we do this by offering a dynamic range of formats.",
+						"image": "fit_content_assets/text-and-images.content[0].image-1476855326394.jpeg"
+					},
+					{
+						"text": "In this lesson we will cover the 8 types of formats we offer and provide examples of what these look like in detail."
+					}
+				],
+				"prompt": "Scroll to see more"
+			},
+			"type": "text-and-images",
+			"metadata": {
+				"questions": []
+			},
+			"id": "79c3e738-cb8f-d10e-e004-933ba2fbd25b"
+		},
+		{
+			"templateName": "Image Gallery",
+			"name": 1,
+			"data": {
+				"title": "Advertising formats",
+				"images": [
+					{
+						"image": "fit_content_assets/1464837170702.jpg",
+						"caption": "## **Sponsored Session&nbsp;<font color=\"#1DD75F\">(New)</font>**\n\nDelighting audiences with exclusive sponsorship of a 30-minute, ad&#8209;free&nbsp;session."
+					},
+					{
+						"image": "fit_content_assets/1464837205701.jpg",
+						"caption": "## **Video Takeover&nbsp;<font color=\"#1DD75F\">(New)</font>**\n\nA sponsored ad break experience with video and&nbsp;display."
+					},
+					{
+						"image": "fit_content_assets/1464836749169.jpg",
+						"caption": "## **Audio**\n\nA cross-platform format comprised of an audio spot, cover art, and clickable campaign&nbsp;name."
+					},
+					{
+						"image": "fit_content_assets/1464836903023.jpg",
+						"caption": "**Display**\n\nLeaderboard ads in the Spotify player are served when the user is interacting with&nbsp;Spotify."
+					},
+					{
+						"image": "fit_content_assets/1464836923337.jpg",
+						"caption": "## **Overlay <font color=\"#1DD75F\">(New)</font>**\n\nOverlay is Spotify's 'welcome back' ad. \n\nIt greets returning users on mobile and desktop with a can't-be-missed, large display ad to maximise brand impact and&nbsp;performance."
+					},
+					{
+						"image": "fit_content_assets/1464837255549.jpg",
+						"caption": "## **Homepage Takeover**\n\nBlock out a full day for your brand on our&nbsp;homepage."
+					},
+					{
+						"image": "fit_content_assets/1464837292790.jpg",
+						"caption": "## **Branded Playlist**\n\nCustom playlists with brand logo, custom text, and optional link to your&nbsp;campaign."
+					},
+					{
+						"image": "fit_content_assets/1464837068012.jpg",
+						"caption": "## **Advertiser Page**\n\nA microsite seamlessly integrated into the Spotify player. \n\nThe Advertiser Page can contain practically any content you'd find on a webpage, including videos, clickable images, blogs, news, links, and&nbsp;comments."
+					}
+				],
+				"prompt": "Swipe to continue",
+				"lightbox": false,
+				"background": "",
+				"narration": {
+					"can_not_be_skipped": false,
+					"progress_on_completion": false
+				}
+			},
+			"type": "image-gallery",
+			"metadata": {
+				"questions": []
+			},
+			"id": "71f0ceff-caea-657e-47f7-920ea9d0ff8e"
+		},
+		{
+			"templateName": "Drag to Match",
+			"name": 2,
+			"data": {
+				"title": "Match the advertising formats to their&nbsp;names",
+				"reject": false,
+				"list": [
+					{
+						"nameType": "text",
+						"imageType": "image",
+						"image": "fit_content_assets/1464839345906.jpg",
+						"name": "Sponsored session"
+					},
+					{
+						"nameType": "text",
+						"imageType": "image",
+						"image": "fit_content_assets/1464839424708.jpg",
+						"name": "video takeover"
+					},
+					{
+						"nameType": "text",
+						"imageType": "image",
+						"image": "fit_content_assets/1464839400594.jpg",
+						"name": "Overlay"
+					}
+				],
+				"answer": {
+					"text": "These are the newest dynamic formats that are available on the platform.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"takeaway": ""
+				},
+				"prompt": "Drag the images to their labels",
+				"challenge_configuration": {
+					"nb_stars": null
+				}
+			},
+			"type": "drag-to-match",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "908c0184-05d0-4ba0-a6eb-d4ef056c8264",
+							"type": "image",
+							"category": "Match the advertising formats to their&nbsp;names",
+							"content": "fit_content_assets/1464839345906.jpg"
+						},
+						"answers": [
+							{
+								"id": "c00406a0-144f-419f-91c7-b3909ad5dde6",
+								"type": "text",
+								"content": "Sponsored session",
+								"correct": true
+							},
+							{
+								"id": "bb35af10-c7fa-4a24-84ad-0d96785123aa",
+								"type": "text",
+								"content": "video takeover",
+								"correct": false
+							},
+							{
+								"id": "b0385e0c-b4c7-477c-90f4-9cb520917b0e",
+								"type": "text",
+								"content": "Overlay",
+								"correct": false
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "2da68724-3452-46ca-afe1-15d5938228cb",
+							"type": "image",
+							"category": "Match the advertising formats to their&nbsp;names",
+							"content": "fit_content_assets/1464839424708.jpg"
+						},
+						"answers": [
+							{
+								"id": "aec277e1-585b-4940-8113-96d611ab6f32",
+								"type": "text",
+								"content": "video takeover",
+								"correct": true
+							},
+							{
+								"id": "d430d3d6-b284-4543-b5f6-1e8a1b714095",
+								"type": "text",
+								"content": "Sponsored session",
+								"correct": false
+							},
+							{
+								"id": "4f7089ce-23ca-4879-bc6b-4abdd277fbb2",
+								"type": "text",
+								"content": "Overlay",
+								"correct": false
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "c7b1fea3-be7a-4750-b47f-cf4b20d31916",
+							"type": "image",
+							"category": "Match the advertising formats to their&nbsp;names",
+							"content": "fit_content_assets/1464839400594.jpg"
+						},
+						"answers": [
+							{
+								"id": "5a517e43-bebf-4e7e-8838-805e317cd831",
+								"type": "text",
+								"content": "Overlay",
+								"correct": true
+							},
+							{
+								"id": "666d9e5e-6dcb-4626-9861-6a1cce600a4a",
+								"type": "text",
+								"content": "Sponsored session",
+								"correct": false
+							},
+							{
+								"id": "13d8e4df-58ea-4bbe-a070-b172c5305b45",
+								"type": "text",
+								"content": "video takeover",
+								"correct": false
+							}
+						]
+					}
+				]
+			},
+			"id": "d1bb86a8-05e3-be96-ea12-b42a26719c1f"
+		},
+		{
+			"templateName": "Chat",
+			"name": 3,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": 1
+				},
+				"prompt": "Tap the best reply to the message",
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": " 'Overlay' delivers maximum brand experience and is displayed for 2 seconds, resolving to a Leaderboard with the larger image resized to accompany the Leaderboard."
+				},
+				"answers": {
+					"incorrect": [
+						"'Display' are leaderboard ads in the Spotify player which are served when the user is interacting with Spotify. "
+					],
+					"correct": "'Overlay' is Spotify's 'welcome back' ad. It greets returning users on mobile and desktop with a can't-be-missed large display ad."
+				},
+				"message": {
+					"responder": "What's your answer?",
+					"sender": "The customer asks",
+					"content": "Which format would you suggest to maximize the brand impact and performance?"
+				},
+				"title": ""
+			},
+			"type": "chat",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "2fc7766a-5a3e-4266-9de3-f86f8a120c29",
+							"type": "text",
+							"content": "Which format would you suggest to maximize the brand impact and performance?"
+						},
+						"answers": [
+							{
+								"id": "b9db9051-d37a-423d-aa8c-86f29efbbf58",
+								"type": "text",
+								"content": "'Overlay' is Spotify's 'welcome back' ad. It greets returning users on mobile and desktop with a can't-be-missed large display ad.",
+								"correct": true
+							},
+							{
+								"id": "df83556f-78b9-4e17-a6d8-a06d055aafc4",
+								"content": "'Display' are leaderboard ads in the Spotify player which are served when the user is interacting with Spotify. ",
+								"correct": false,
+								"type": "text"
+							}
+						]
+					}
+				]
+			},
+			"id": "99e5e959-c494-2fca-fae1-5fd323af498f"
+		},
+		{
+			"templateName": "Pie Chart",
+			"name": 4,
+			"data": {
+				"title": "How many minutes of ad&#8209;free listening are Spotify listeners rewarded with in a 'Sponsored Session'?",
+				"pie": {
+					"min": 0,
+					"max": 60,
+					"prefix": "",
+					"suffix": " min",
+					"increment": 10
+				},
+				"answer": {
+					"text": "Users must complete an ad video spot to receive this reward and videos can run for 15, 20 or 30 seconds. \n\n(US and CA sites is 15 seconds).",
+					"value": 30,
+					"correct": "That's correct!",
+					"incorrect": "Not quite...",
+					"takeaway": ""
+				},
+				"prompt": "Drag to set the correct value",
+				"challenge_configuration": {
+					"nb_stars": null
+				}
+			},
+			"type": "pie-chart",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "36d24f27-1b3e-4584-a71d-ac088376262f",
+							"type": "text",
+							"content": "How many minutes of ad&#8209;free listening are Spotify listeners rewarded with in a 'Sponsored Session'?"
+						},
+						"answers": [
+							{
+								"id": "742ce30e-fdf0-4b55-9b6c-e1ca1a779d9a",
+								"content": 30,
+								"correct": true,
+								"type": "number"
+							},
+							{
+								"id": "5cd5d14d-346c-423a-b435-d656022136bd",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					}
+				]
+			},
+			"id": "bf439506-e132-987b-64ce-ce775cdd8dc3"
+		},
+		{
+			"templateName": "Missing Word",
+			"name": 5,
+			"data": {
+				"title": "Branded Playlists include custom playlists with brand logo, custom text, and optional link to a campaign.\n",
+				"words": [
+					"brand",
+					"link",
+					"campaign",
+					"Playlists",
+					"song",
+					"site"
+				],
+				"answer": {
+					"text": "Branded Playlists include custom playlists with brand logo, custom text, and optional link to a campaign.",
+					"correct": "That's correct!",
+					"incorrect": "Not quite...",
+					"takeaway": ""
+				},
+				"prompt": "Drag in the correct words",
+				"challenge_configuration": {
+					"nb_stars": null
+				}
+			},
+			"type": "missing-word",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "5fe76645-26cc-4953-ad0d-e96855300f67",
+							"type": "text",
+							"category": "Branded Playlists include custom playlists with brand logo, custom text, and optional link to a campaign.\n",
+							"content": "brand"
+						},
+						"answers": [
+							{
+								"id": "268dc044-38ab-495d-a946-963d98857f3d",
+								"type": "text",
+								"content": "brand",
+								"correct": true
+							},
+							{
+								"id": "53de2957-199e-4a8c-af62-660ecc6ce411",
+								"content": "link",
+								"correct": false,
+								"type": "text"
+							},
+							{
+								"id": "9a440118-8291-480f-be63-4991da9d9d9c",
+								"content": "campaign",
+								"correct": false,
+								"type": "text"
+							},
+							{
+								"id": "1121eef1-e35f-45e2-875b-a1030a5f148e",
+								"content": "Playlists",
+								"correct": false,
+								"type": "text"
+							},
+							{
+								"id": "9f372994-3257-4460-932b-664e362ecfb2",
+								"content": "song",
+								"correct": false,
+								"type": "text"
+							},
+							{
+								"id": "219259e6-f848-4b50-8b41-e8ac7f7ac8e7",
+								"content": "site",
+								"correct": false,
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "34ba2dc3-3381-4592-a66e-46c52094e0a2",
+							"type": "text",
+							"category": "Branded Playlists include custom playlists with brand logo, custom text, and optional link to a campaign.\n",
+							"content": "link"
+						},
+						"answers": [
+							{
+								"id": "6cd57f8f-cbe3-4e80-9849-9921aebd0c6e",
+								"type": "text",
+								"content": "link",
+								"correct": true
+							},
+							{
+								"id": "8ba7ea85-527d-4999-9f78-87f62f18fe8a",
+								"content": "brand",
+								"correct": false,
+								"type": "text"
+							},
+							{
+								"id": "ea1e2a76-57b5-4c4b-9c9c-5ec568d74d18",
+								"content": "campaign",
+								"correct": false,
+								"type": "text"
+							},
+							{
+								"id": "abeaa9d5-2c26-4aff-ac99-c16a04722d18",
+								"content": "Playlists",
+								"correct": false,
+								"type": "text"
+							},
+							{
+								"id": "a437dd95-e123-453d-b0cf-c554a7401ba7",
+								"content": "song",
+								"correct": false,
+								"type": "text"
+							},
+							{
+								"id": "3037f7ad-a0b9-4403-9e04-83881a0afc1d",
+								"content": "site",
+								"correct": false,
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "b6e8d353-43cd-49d3-a945-9568bb77d1f8",
+							"type": "text",
+							"category": "Branded Playlists include custom playlists with brand logo, custom text, and optional link to a campaign.\n",
+							"content": "campaign"
+						},
+						"answers": [
+							{
+								"id": "6225d728-7760-495d-86a5-43ea118e9f8b",
+								"type": "text",
+								"content": "campaign",
+								"correct": true
+							},
+							{
+								"id": "565fb5ae-aa2d-4afc-ad0c-d301afaef9ac",
+								"content": "brand",
+								"correct": false,
+								"type": "text"
+							},
+							{
+								"id": "37da1871-8557-48ed-9741-4b168234e3af",
+								"content": "link",
+								"correct": false,
+								"type": "text"
+							},
+							{
+								"id": "830c0c4d-839d-48d4-9b53-5e3b1c692fc0",
+								"content": "Playlists",
+								"correct": false,
+								"type": "text"
+							},
+							{
+								"id": "20dde65a-bb3b-4f2f-85b2-3354f7aa70fb",
+								"content": "song",
+								"correct": false,
+								"type": "text"
+							},
+							{
+								"id": "9e8ce05a-591c-4e0e-8ba6-e4ce04c7c174",
+								"content": "site",
+								"correct": false,
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "fe2bb5cd-af65-4051-8fbe-8cc9bdef4816",
+							"type": "text",
+							"category": "Branded Playlists include custom playlists with brand logo, custom text, and optional link to a campaign.\n",
+							"content": "Playlists"
+						},
+						"answers": [
+							{
+								"id": "107f1800-328b-4b61-88f7-42d52225786f",
+								"type": "text",
+								"content": "Playlists",
+								"correct": true
+							},
+							{
+								"id": "33bb5edb-2183-4219-bde8-0367332ab00c",
+								"content": "brand",
+								"correct": false,
+								"type": "text"
+							},
+							{
+								"id": "e5f534fb-6c32-490a-9c4b-95c25d9d4bd4",
+								"content": "link",
+								"correct": false,
+								"type": "text"
+							},
+							{
+								"id": "d95a55e5-aff5-4a55-acf5-8725fde3445f",
+								"content": "campaign",
+								"correct": false,
+								"type": "text"
+							},
+							{
+								"id": "d89021de-92c5-4873-8707-bfbb8c0a6cea",
+								"content": "song",
+								"correct": false,
+								"type": "text"
+							},
+							{
+								"id": "35919cd2-a640-4f0b-9e2b-786d5603aa82",
+								"content": "site",
+								"correct": false,
+								"type": "text"
+							}
+						]
+					}
+				]
+			},
+			"id": "555655f4-be52-4ae1-e70a-16e5b3f69e00"
+		},
+		{
+			"templateName": "Connect",
+			"name": 6,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": 3
+				},
+				"prompt": "Draw a line between each pair",
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "**Audio formats** are a cross-platform format comprised of an audio spot, cover art, and clickable campaign name.\n\n**Display formats** are leaderboard ads in the Spotify player, served when the user is interacting with Spotify.\n\n**Homepage Takeover formats** block out a full day for the brand on our Homepage."
+				},
+				"pairs": [
+					{
+						"right": "A cross-platform format comprised of an audio spot, cover art, and clickable campaign name.",
+						"rightType": "",
+						"left": "Audio",
+						"leftType": ""
+					},
+					{
+						"right": "Leaderboard ads in the Spotify player are served when the user is interacting with Spotify.",
+						"rightType": "",
+						"left": "Display",
+						"leftType": ""
+					},
+					{
+						"right": "Block out a full day for the brand on our Homepage.",
+						"rightType": "",
+						"left": "Homepage Takeover",
+						"leftType": ""
+					}
+				],
+				"title": "Match the format with their attributes",
+				"titleType": "text"
+			},
+			"type": "connect",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "ee904a2d-51ca-446b-be3b-a84b93924a6b",
+							"type": "text",
+							"category": "Match the format with their attributes",
+							"content": "Audio"
+						},
+						"answers": [
+							{
+								"id": "4113e9f4-1f44-4b0a-855e-e35d39cf08b7",
+								"content": "A cross-platform format comprised of an audio spot, cover art, and clickable campaign name.",
+								"type": "text",
+								"correct": true
+							},
+							{
+								"id": "1b0e54e7-541a-4b89-a9fb-762403762fe6",
+								"type": "text",
+								"content": "Leaderboard ads in the Spotify player are served when the user is interacting with Spotify.",
+								"correct": false
+							},
+							{
+								"id": "5b19635f-bf61-48ac-9e7c-d969173a745e",
+								"type": "text",
+								"content": "Block out a full day for the brand on our Homepage.",
+								"correct": false
+							}
+						]
+					},
+					{
+						"question": {
+							"type": "text",
+							"category": "Match the format with their attributes",
+							"content": "Display",
+							"id": "583a2b53-6638-4593-b540-a03c681b0a7b"
+						},
+						"answers": [
+							{
+								"content": "Leaderboard ads in the Spotify player are served when the user is interacting with Spotify.",
+								"correct": true,
+								"id": "8ac54603-1a23-4574-a287-e3a910877946"
+							},
+							{
+								"content": "A cross-platform format comprised of an audio spot, cover art, and clickable campaign name.",
+								"correct": false,
+								"id": "d2e1455f-4893-4a56-bb28-4783fe761df5"
+							},
+							{
+								"content": "Block out a full day for the brand on our Homepage.",
+								"correct": false,
+								"id": "208e3b2b-cb45-4139-a6e0-e93ee6a0ca49"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "ce195899-fe3e-4cdc-8344-660f7d8b0171",
+							"type": "text",
+							"category": "Match the format with their attributes",
+							"content": "Homepage Takeover"
+						},
+						"answers": [
+							{
+								"id": "e8cbbb31-8f1b-4735-88c9-c9b97f188f7c",
+								"content": "Block out a full day for the brand on our Homepage.",
+								"type": "text",
+								"correct": true
+							},
+							{
+								"id": "0cc79129-2149-4aea-8b30-2d25f24d3ca4",
+								"type": "text",
+								"content": "A cross-platform format comprised of an audio spot, cover art, and clickable campaign name.",
+								"correct": false
+							},
+							{
+								"id": "1bc6eb91-b6a5-4220-a815-ee8981ab2969",
+								"type": "text",
+								"content": "Leaderboard ads in the Spotify player are served when the user is interacting with Spotify.",
+								"correct": false
+							}
+						]
+					}
+				]
+			},
+			"id": "1582f554-6802-805a-df49-0aad21c41d28"
+		},
+		{
+			"templateDescription": "Tap the correct answer(s)",
+			"templateName": "Multiple Choice",
+			"name": 7,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1
+					}
+				},
+				"prompt": "Tap the correct answer",
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "The Advertiser Page can contain practically any content you'd find on a webpage, including videos, clickable images, blogs, news, links, and comments."
+				},
+				"answers": [
+					{
+						"correct": false,
+						"content": "Video"
+					},
+					{
+						"correct": false,
+						"content": "Clickable images"
+					},
+					{
+						"correct": false,
+						"content": "Links"
+					},
+					{
+						"correct": false,
+						"content": "Blogs"
+					},
+					{
+						"correct": false,
+						"content": "Comments"
+					},
+					{
+						"correct": false,
+						"content": "News"
+					},
+					{
+						"correct": true,
+						"content": "All of  the above"
+					}
+				],
+				"randomize": true,
+				"selectable": 1,
+				"title": "Which content can the Advertiser Page contain?",
+				"titleType": "text"
+			},
+			"type": "multiple-choice-game",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "a755bf35-6b0f-43e5-a3ea-6442142d79ac",
+							"type": "text",
+							"content": "Which content can the Advertiser Page contain?"
+						},
+						"answers": [
+							{
+								"id": "4df077cb-3826-4459-a0df-7d1990adaccb",
+								"type": "text",
+								"content": "Video",
+								"correct": false
+							},
+							{
+								"id": "3233402d-6d67-413d-92fb-df024aa29c2a",
+								"type": "text",
+								"content": "Clickable images",
+								"correct": false
+							},
+							{
+								"id": "92cbd827-6a5a-47c3-affc-8dfa1305c3ab",
+								"type": "text",
+								"content": "Links",
+								"correct": false
+							},
+							{
+								"id": "525b9c9c-0b67-4728-9f38-6ec278a367d3",
+								"type": "text",
+								"content": "Blogs",
+								"correct": false
+							},
+							{
+								"id": "5517b1f8-1a46-40fa-a795-6a1053d1a0c3",
+								"type": "text",
+								"content": "Comments",
+								"correct": false
+							},
+							{
+								"id": "6e705473-7f4a-4921-aa26-04234bffe9cd",
+								"type": "text",
+								"content": "News",
+								"correct": false
+							},
+							{
+								"id": "32b6e285-9dd1-44fe-9b6b-f42616fd3777",
+								"type": "text",
+								"content": "All of  the above",
+								"correct": true
+							}
+						]
+					}
+				]
+			},
+			"id": "807a9871-89e6-4ec4-9628-8adbb569cf51"
+		},
+		{
+			"templateName": "Letter Jumble",
+			"name": 8,
+			"data": {
+				"title": "**Letter Jumble**",
+				"description": "In this game, you will be presented with an image which represents a Spotify advertising format. You will need to complete the formats' names by dragging in the missing letters.\n\nYou need to score **10,000 points** in **10 seconds** to earn all available stars!\n\n*Hint: Speedy slotting will earn you more&nbsp;points!*",
+				"prompt": "Snag the letters to the word above",
+				"words": [
+					{
+						"image": "fit_content_assets/1464848295080.jpg",
+						"word": "Branded Playlist"
+					},
+					{
+						"image": "fit_content_assets/1464848308269.jpg",
+						"word": "Display"
+					},
+					{
+						"image": "fit_content_assets/1464848327459.jpg",
+						"word": "Homepage Takeover"
+					},
+					{
+						"image": "fit_content_assets/1464848365850.jpg",
+						"word": "Sponsored Session"
+					},
+					{
+						"image": "fit_content_assets/1464848386150.jpg",
+						"word": "Video Takeover"
+					},
+					{
+						"image": "fit_content_assets/1464848418701.jpg",
+						"word": "Overlay"
+					},
+					{
+						"image": "fit_content_assets/1464848451139.jpg",
+						"word": "Audio"
+					}
+				],
+				"game": {
+					"timer": {
+						"limit": 10000
+					},
+					"stars": {
+						"min": 1000,
+						"max": 10000
+					}
+				},
+				"challenge_configuration": {
+					"nb_stars": 5
+				}
+			},
+			"type": "game-jumble",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "bd2470d7-5917-4a44-9362-58c4b29969cb",
+							"type": "image",
+							"category": "**Letter Jumble**",
+							"content": "fit_content_assets/1464848295080.jpg"
+						},
+						"answers": [
+							{
+								"id": "65f92a39-d07a-431d-8d32-c615b5299c38",
+								"content": "Branded Playlist",
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "af1f38a0-b751-437a-8e96-f724c108c458",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "f666c5b0-39af-4f13-87b1-627f8f70e638",
+							"type": "image",
+							"category": "**Letter Jumble**",
+							"content": "fit_content_assets/1464848308269.jpg"
+						},
+						"answers": [
+							{
+								"id": "3c0ae879-662c-494c-a69c-11abb263e158",
+								"content": "Display",
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "38ae7290-1cf1-4098-bbf7-40b58054bd72",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "2e9852b1-3344-4af3-9761-05e8212702c6",
+							"type": "image",
+							"category": "**Letter Jumble**",
+							"content": "fit_content_assets/1464848327459.jpg"
+						},
+						"answers": [
+							{
+								"id": "77a6477d-ad90-4001-a0ff-ce9916225e2b",
+								"content": "Homepage Takeover",
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "51ef5ad3-e2b7-431b-a7c9-cb746c93b953",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "7882e642-e6bc-4b8a-8e6e-bced8af39eef",
+							"type": "image",
+							"category": "**Letter Jumble**",
+							"content": "fit_content_assets/1464848365850.jpg"
+						},
+						"answers": [
+							{
+								"id": "97420ce9-68fe-4cb6-a3f9-a2f6b56616bc",
+								"content": "Sponsored Session",
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "e525cf8b-6c95-4366-8f9a-7622b1e27c18",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "74715f98-924f-4451-90f7-a56303a58bdf",
+							"type": "image",
+							"category": "**Letter Jumble**",
+							"content": "fit_content_assets/1464848386150.jpg"
+						},
+						"answers": [
+							{
+								"id": "898bbebe-41c2-4021-9954-4ec296669adc",
+								"content": "Video Takeover",
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "a8f6a9b4-02af-4eea-98e9-a564ff49884d",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "6fbd8f94-3830-493b-9873-aa075dad1151",
+							"type": "image",
+							"category": "**Letter Jumble**",
+							"content": "fit_content_assets/1464848418701.jpg"
+						},
+						"answers": [
+							{
+								"id": "92d5d54a-1eb9-41d7-a8d9-4cce366964d0",
+								"content": "Overlay",
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "b5caad1d-a924-4fef-b5dc-84c6a85373fe",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "f9ca2b18-2857-4e28-9f23-0ce7affc5ddc",
+							"type": "image",
+							"category": "**Letter Jumble**",
+							"content": "fit_content_assets/1464848451139.jpg"
+						},
+						"answers": [
+							{
+								"id": "910ef0fa-bd83-4827-8de7-dfb48573c168",
+								"content": "Audio",
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "256c7b27-c344-40ce-9d04-b1d92eaae9b9",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					}
+				]
+			},
+			"id": "6cb6b33d-d01e-d233-7d2b-c44ecff3026b"
+		},
+		{
+			"templateName": "Exit Lesson",
+			"type": "exit",
+			"permanent": true,
+			"data": {
+				"title": "**That's it!**",
+				"content": "Nice work. You've completed this lesson.",
+				"buttonText": "Exit Lesson"
+			},
+			"name": 9,
+			"metadata": {
+				"questions": []
+			},
+			"id": "85305b4a-9a70-153d-f8b3-d4c17559fcc6"
+		}
+	],
+	"title": "Formats",
+	"scorm": true,
+	"index": 0,
+	"id": "59d284334eb20800018fc064"
+}

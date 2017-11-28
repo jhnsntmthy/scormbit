@@ -1,0 +1,77 @@
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" identifier="com.edapp.59d284334eb20800018fc068">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="ed_app">
+    <organization identifier="ed_app">
+      <title>Spotify Audience reach</title>
+      <item identifier="item_1" identifierref="resource_1" isvisible="true">
+        <title>Spotify Audience reach</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="resource_1" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="audio/achievement.mp3"/>
+      <file href="audio/correct.mp3"/>
+      <file href="audio/game-music-slow.mp3"/>
+      <file href="audio/go.mp3"/>
+      <file href="audio/incorrect.mp3"/>
+      <file href="audio/new-star.mp3"/>
+      <file href="audio/ready.mp3"/>
+      <file href="audio/spin-fail.mp3"/>
+      <file href="audio/spin-stop.mp3"/>
+      <file href="audio/spin-success.mp3"/>
+      <file href="audio/spin-win.mp3"/>
+      <file href="audio/spinning.mp3"/>
+      <file href="audio/tally-score.mp3"/>
+      <file href="audio/welcome.mp3"/>
+      <file href="css/app.css"/>
+      <file href="css/app.css.map"/>
+      <file href="font/Thomas-Regular.woff"/>
+      <file href="font/edsansneue-light.woff"/>
+      <file href="font/edsansneue-regular.woff"/>
+      <file href="font/edsansneue-regularitalic.woff"/>
+      <file href="font/edsansneue-semibold.woff"/>
+      <file href="img/examples/flow-1.png"/>
+      <file href="img/examples/flow-2.png"/>
+      <file href="img/examples/parallax-1.png"/>
+      <file href="img/examples/parallax-2.png"/>
+      <file href="img/examples/parallax-3.png"/>
+      <file href="img/examples/product-1-xl.png"/>
+      <file href="img/examples/product-1.png"/>
+      <file href="img/examples/product-2.png"/>
+      <file href="img/examples/product-3.png"/>
+      <file href="img/expand-browser.png"/>
+      <file href="img/rotate-device.png"/>
+      <file href="img/templates/loader-light.gif"/>
+      <file href="img/templates/loader.gif"/>
+      <file href="img/templates/star-default.png"/>
+      <file href="img/templates/star-earned.png"/>
+      <file href="img/templates/star-light.png"/>
+      <file href="img/video/empty.png"/>
+      <file href="index.html"/>
+      <file href="js/app.js"/>
+      <file href="js/app.js.map"/>
+      <file href="js/vendor.js"/>
+      <file href="js/vendor.js.map"/>
+      <file href="video/example.mp4"/>
+      <file href="fit_content_assets/lesson.configuration.config.logo-1476855541506.png"/>
+      <file href="fit_content_assets/lesson.configuration.config.background-1476855541857.jpeg"/>
+      <file href="fit_content_assets/1464847700877.jpg"/>
+      <file href="fit_content_assets/1464853969569.jpg"/>
+      <file href="fit_content_assets/1464851553289.png"/>
+      <file href="fit_content_assets/1464851610561.png"/>
+      <file href="fit_content_assets/1464853783302.jpg"/>
+      <file href="fit_content_assets/1464854674573.png"/>
+      <file href="fit_content_assets/1464854686769.png"/>
+      <file href="fit_content_assets/1464854700791.png"/>
+      <file href="adlcp_rootv1p2.xsd"/>
+      <file href="ims_xml.xsd"/>
+      <file href="imscp_rootv1p1p2.xsd"/>
+      <file href="imsmd_rootv1p2p1.xsd"/>
+      <file href="config.json"/>
+    </resource>
+  </resources>
+</manifest>

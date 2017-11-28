@@ -1,0 +1,554 @@
+{
+	"config": {
+		"background": "fit_content_assets/lesson.configuration.config.background-1476855481439.jpeg",
+		"customCSS": "",
+		"logo": "fit_content_assets/lesson.configuration.config.logo-1476855470035.png",
+		"minimumScore": 0,
+		"disableInteractionSummary": true,
+		"hasAnswerFeedback": true,
+		"colors": {
+			"text": "#fff",
+			"background": "#333"
+		},
+		"pageNumbers": true,
+		"pagination": false,
+		"indicator": true
+	},
+	"isOnline": false,
+	"isAudio": false,
+	"slides": [
+		{
+			"templateName": "Image Gallery",
+			"type": "image-gallery",
+			"data": {
+				"title": "Targeting specific audiences with Spotify",
+				"images": [
+					{
+						"caption": "# **Targeting specific audiences with Spotify**\nWhen using Spotify as an advertising platform, media agencies need to know that they can reach the exact audience that they want to, using **content targeting, demographic targeting** and **time and platform targeting.**\n\nSwipe to get an overview about each type of targeting, then continue through the lesson to look at them in more detail."
+					},
+					{
+						"image": "fit_content_assets/1464823581656.jpg",
+						"caption": "## **Content targeting**\nContent targeting means targeting users based on **what they are listening to.**\n\nContent targeting can be used to reach users with particular **habits, \u0003mindsets,** and **tastes** that align with an client's target audience."
+					},
+					{
+						"image": "fit_content_assets/1464823595921.jpg",
+						"caption": "## **Demographic targeting**\nAgencies can use demographic targeting to target users based on **who they are.**\n\nDemographic targeting can be used to confidently reach any audience **across mobile, desktop** and **connected devices.**"
+					},
+					{
+						"image": "fit_content_assets/1464823644157.jpg",
+						"caption": "## **Time and Platform targeting.**\nTime and platform targeting allows agencies to target users based on **when and how they are listening to music.** \n\nIt means that agencies can be sure that messages are delivered at the **right time** \u0003and on the **right platform.**"
+					}
+				],
+				"prompt": "Swipe to continue",
+				"lightbox": false,
+				"background": "",
+				"narration": {
+					"can_not_be_skipped": false,
+					"progress_on_completion": false
+				}
+			},
+			"name": 0,
+			"metadata": {
+				"questions": []
+			},
+			"id": "68f24a6c-9f47-eefb-7dab-03391b114831"
+		},
+		{
+			"templateName": "Chat",
+			"type": "chat",
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": null
+				},
+				"prompt": "Tap the best reply to the message",
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "We identify playlists aligned with **popular activities** and **moods,** and then create audience segments by identifying users that listen frequently to playlists in each category (updated daily as fresh data comes in).\n\nThis allows for targeting to users who prefer specific activities (e.g. those who listen to the **Dance Workout** playlist), or specific genres of music (e.g. **Hip Hop**)."
+				},
+				"answers": {
+					"incorrect": [
+						"We ask users to fill out a form when they sign up, so we know what adverts they might enjoy.",
+						"We take data available from Facebook and Google to put together a picture of our users."
+					],
+					"correct": "We identify users based on the playlists or genres they commonly listen to, and associate those with popular activities or moods."
+				},
+				"message": {
+					"responder": "What's the correct response?",
+					"sender": "The client asks",
+					"content": "How does Spotify tell what users' habits or mindsets are?"
+				},
+				"title": ""
+			},
+			"name": 1,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "152bf04d-83b5-40d1-ac6c-197801564ed6",
+							"type": "text",
+							"content": "How does Spotify tell what users' habits or mindsets are?"
+						},
+						"answers": [
+							{
+								"id": "f3360dd0-9f53-4f0c-9e34-9165024c4cfa",
+								"type": "text",
+								"content": "We identify users based on the playlists or genres they commonly listen to, and associate those with popular activities or moods.",
+								"correct": true
+							},
+							{
+								"id": "1f1c3efd-e344-41ab-a161-f2ca59a6eaae",
+								"content": "We ask users to fill out a form when they sign up, so we know what adverts they might enjoy.",
+								"correct": false,
+								"type": "text"
+							},
+							{
+								"id": "5aab7815-d3e6-4a90-90be-647dc0cc3b5c",
+								"content": "We take data available from Facebook and Google to put together a picture of our users.",
+								"correct": false,
+								"type": "text"
+							}
+						]
+					}
+				]
+			},
+			"id": "728046dc-ba08-32ee-2972-08ffa2f91f77"
+		},
+		{
+			"templateName": "Drag to Match",
+			"type": "drag-to-match",
+			"data": {
+				"title": "Drag the images to the types of characteristics which can be targeted.",
+				"reject": false,
+				"list": [
+					{
+						"nameType": "text",
+						"imageType": "image",
+						"image": "fit_content_assets/1464825519755.jpg",
+						"name": "Age & Gender"
+					},
+					{
+						"nameType": "text",
+						"imageType": "image",
+						"image": "fit_content_assets/1464825529008.jpg",
+						"name": "Geography"
+					},
+					{
+						"nameType": "text",
+						"imageType": "image",
+						"image": "fit_content_assets/1464825537706.jpg",
+						"name": "Language"
+					}
+				],
+				"answer": {
+					"text": "**Demographic targeting** allows drilling down to target users based on who they are, on characteristics such as:\n- **Age & Gender,** powered by our 100% registered user data.\n- **Geographical location** at the country or city level, based on the IP address of the user's current Spotify session .\n- **Language preference,** specified by the user upon registration.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"takeaway": ""
+				},
+				"prompt": "Drag the images to their labels",
+				"challenge_configuration": {
+					"nb_stars": 2
+				}
+			},
+			"name": 2,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"type": "image",
+							"category": "Drag the images to the types of characteristics which can be targeted.",
+							"content": "fit_content_assets/1464825519755.jpg",
+							"id": "842b0d88-a048-4789-b186-627094e8a193"
+						},
+						"answers": [
+							{
+								"content": "Age & Gender",
+								"correct": true,
+								"id": "fe3fae9b-04a2-4c44-ae79-28f38f9cd32a"
+							},
+							{
+								"content": "Geography",
+								"correct": false,
+								"id": "293ee6f4-6b9a-43b9-994e-cfc30e341eb4"
+							},
+							{
+								"content": "Language",
+								"correct": false,
+								"id": "765e0a17-3770-41b7-b3f0-15f570f12b2f"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "b273af66-824b-44f0-b859-44bebbea8ae7",
+							"type": "image",
+							"category": "Drag the images to the types of characteristics which can be targeted.",
+							"content": "fit_content_assets/1464825529008.jpg"
+						},
+						"answers": [
+							{
+								"id": "696c643a-8ed1-4c68-a5f7-052a8bd7c9e1",
+								"type": "text",
+								"content": "Geography",
+								"correct": true
+							},
+							{
+								"id": "536a5363-4650-4d1f-93ec-5647222759b4",
+								"type": "text",
+								"content": "Age & Gender",
+								"correct": false
+							},
+							{
+								"id": "1f9cfb58-3ee9-417b-afea-5fc9f51898ee",
+								"type": "text",
+								"content": "Language",
+								"correct": false
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "45d7d84b-07c4-4287-a85c-6691f7c91526",
+							"type": "image",
+							"category": "Drag the images to the types of characteristics which can be targeted.",
+							"content": "fit_content_assets/1464825537706.jpg"
+						},
+						"answers": [
+							{
+								"id": "6695c34a-b6c5-453a-8722-399d12ac16e8",
+								"type": "text",
+								"content": "Language",
+								"correct": true
+							},
+							{
+								"id": "5756a233-208d-4250-b572-2eb078de06c7",
+								"type": "text",
+								"content": "Age & Gender",
+								"correct": false
+							},
+							{
+								"id": "c8874df1-ddb5-4eea-ae74-0352afb6f1c8",
+								"type": "text",
+								"content": "Geography",
+								"correct": false
+							}
+						]
+					}
+				]
+			},
+			"id": "3bf89d38-ee8f-c6b2-4e1d-b520a93d980a"
+		},
+		{
+			"templateName": "Slider",
+			"type": "slider",
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": 1
+				},
+				"prompt": "Drag to set the correct value",
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"value": 59,
+					"text": "Spotify has a significant footprint in over **[50 markets around the world,](https://press.spotify.com/us/about/)** so media agencies never feel restricted in the geographical location they want to target."
+				},
+				"slider": {
+					"decimals": 0,
+					"labels": 4,
+					"increment": 10,
+					"suffix": "",
+					"prefix": "",
+					"max": 69,
+					"min": 39
+				},
+				"title": "How many markets is Spotify available in worldwide?"
+			},
+			"name": 3,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "2bccc452-1532-4843-b616-cb8e9515ad9c",
+							"type": "text",
+							"content": "How many markets is Spotify available in worldwide?"
+						},
+						"answers": [
+							{
+								"id": "0bc8a984-4b6d-40b2-ae8a-4177071cbfb9",
+								"content": 59,
+								"correct": true,
+								"type": "number"
+							},
+							{
+								"id": "d3574303-4b11-46bc-9726-4bb5848be050",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					}
+				]
+			},
+			"id": "3edb0dee-218f-8947-6fbd-d6fada292ec2"
+		},
+		{
+			"templateDescription": "Tap on an image to see more detail",
+			"templateName": "Image Collection",
+			"name": 4,
+			"data": {
+				"title": "**Time and platform targeting**\n\n<p style=\"font-size:0.63em;\", align=\"left\">Tap to explore the different ways Spotify advertising allows targeting a specific time or platform.</span>",
+				"images": [
+					{
+						"image": "fit_content_assets/1464844866879.jpg",
+						"content": "## **Daypart**\nSpotify listeners are engaged from **morning** to **night,** not just during traditional peak hours. \n\nUsing Spotify advertising, audiences can be reached at a time which suits the client's messaging, or complements their broadcast buys."
+					},
+					{
+						"image": "fit_content_assets/1464844856926.jpg",
+						"content": "## **Platform**\nCampaigns can be dynamically served to users based on their active **Spotify app platform** including iPhone, iPad, Android (all devices), Desktop, Web Player, and PlayStation®.\n\nAdverts can also be targeted based on users' **mobile operating system,** or **mobile carrier.**"
+					},
+					{
+						"image": "fit_content_assets/1464844736903.png",
+						"content": "## **Retargeting & Sequential Messaging**\n**Cross-platform retargeting** allows clients to re-message users based on previous engagement or exposure to adverts across **all Spotify app platforms.**\n\n**Sequential messaging** also allows delivery of longer-form brand and product narratives. "
+					}
+				],
+				"prompt": "Tap each image for more details",
+				"lightbox": false,
+				"background": "",
+				"narration": {
+					"can_not_be_skipped": false,
+					"progress_on_completion": false
+				}
+			},
+			"type": "image-collection",
+			"metadata": {
+				"questions": []
+			},
+			"id": "5f618e8b-5bf7-3559-5b8b-66674371fcba"
+		},
+		{
+			"templateName": "Image/Word Match",
+			"type": "game-image-word-match",
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": 5
+				},
+				"game": {
+					"stars": {
+						"max": 10000,
+						"min": 1000
+					},
+					"timer": {
+						"limit": 10000
+					}
+				},
+				"images": [
+					{
+						"title": "Age & Gender",
+						"image": "fit_content_assets/1464831363036.jpg"
+					},
+					{
+						"title": "Genre",
+						"image": "fit_content_assets/1464831371913.jpg"
+					},
+					{
+						"title": "Geographical Location",
+						"image": "fit_content_assets/1464831379389.jpg"
+					},
+					{
+						"title": "Preferred Language",
+						"image": "fit_content_assets/1464831397939.jpg"
+					},
+					{
+						"title": "Specific activities and moods",
+						"image": "fit_content_assets/1464831406949.jpg"
+					},
+					{
+						"title": "Platform",
+						"image": "fit_content_assets/1464841836495.jpg"
+					},
+					{
+						"title": "Daypart",
+						"image": "fit_content_assets/1464842199806.jpg"
+					}
+				],
+				"prompt": "Select the demographic that matches the image",
+				"description": "Welcome to the Target Tap game! \n\nIn this game, you need to tap the **demographic characteristic** which can be targeted in Spotify advertising that matches the **image displayed.**\n\nYou'll need to get **10,000 points** in **10 seconds** to earn all 5 stars. \n\n*Hint: Speedy answers will earn you more points!*",
+				"title": "**Target Tap**"
+			},
+			"name": 5,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "ebd073d5-2ba1-4784-9b2e-a69692bddf7a",
+							"type": "image",
+							"category": "**Target Tap**",
+							"content": "fit_content_assets/1464831363036.jpg"
+						},
+						"answers": [
+							{
+								"id": "8f9f0f15-c94d-4f2d-ada3-e05e12426efc",
+								"content": "Age & Gender",
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "37626696-9e0c-4ae5-9e29-42872bd0c988",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "52d4e894-dd0e-486a-a41b-61c12f3d66f3",
+							"type": "image",
+							"category": "**Target Tap**",
+							"content": "fit_content_assets/1464831371913.jpg"
+						},
+						"answers": [
+							{
+								"id": "4c3da626-b730-4235-b582-eeb7466e8128",
+								"content": "Genre",
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "5f7bf96c-4d3b-4310-8ac6-779507f355e4",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "2c39bb83-501a-40d2-9b6d-2a53934e1f3b",
+							"type": "image",
+							"category": "**Target Tap**",
+							"content": "fit_content_assets/1464831379389.jpg"
+						},
+						"answers": [
+							{
+								"id": "4857e873-56f2-43e5-8745-92808951159c",
+								"content": "Geographical Location",
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "ac5b16a6-c2f1-43a7-8862-b56fd0e8ad09",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "38622900-1b3d-495a-9978-9dcc7f799cbe",
+							"type": "image",
+							"category": "**Target Tap**",
+							"content": "fit_content_assets/1464831397939.jpg"
+						},
+						"answers": [
+							{
+								"id": "5fc0c831-4e05-4ffa-8a08-ebc7e21952ca",
+								"content": "Preferred Language",
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "80cfaeb8-acfc-4abc-9827-9b593990c1aa",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "2705176d-95c7-4a36-95db-392ba1ee220d",
+							"type": "image",
+							"category": "**Target Tap**",
+							"content": "fit_content_assets/1464831406949.jpg"
+						},
+						"answers": [
+							{
+								"id": "426420cc-207c-42d1-b5a3-4146a9bd8bae",
+								"content": "Specific activities and moods",
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "5bd531dd-be74-4ec7-bbe7-ef7c7935b5e5",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "3a49974d-6ef2-415b-9ac9-111d0c10cbe3",
+							"type": "image",
+							"category": "**Target Tap**",
+							"content": "fit_content_assets/1464841836495.jpg"
+						},
+						"answers": [
+							{
+								"id": "ef968a91-dead-4ae4-9f67-a285b174e502",
+								"content": "Platform",
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "c32be80f-220d-48f8-a6e4-fe6de6cbd5fa",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "b588a7cc-6530-43eb-b1ca-ee4869caedc7",
+							"type": "image",
+							"category": "**Target Tap**",
+							"content": "fit_content_assets/1464842199806.jpg"
+						},
+						"answers": [
+							{
+								"id": "baa48495-6c04-4d05-b8e3-bee137109f49",
+								"content": "Daypart",
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "a8a7a5ef-7568-4cae-ab2d-c40d68977f77",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					}
+				]
+			},
+			"id": "86792385-c625-4bab-7bfd-8987241edeba"
+		},
+		{
+			"templateName": "Exit Lesson",
+			"type": "exit",
+			"permanent": true,
+			"data": {
+				"title": "**That's it!**",
+				"content": "Nice work. You've completed this lesson.",
+				"buttonText": "Exit Lesson"
+			},
+			"name": 6,
+			"metadata": {
+				"questions": []
+			},
+			"id": "99db3b60-ed94-9ded-eb32-e6ee8ef87e18"
+		}
+	],
+	"title": "Targeting",
+	"scorm": true,
+	"index": 0,
+	"id": "59d284334eb20800018fc067"
+}
