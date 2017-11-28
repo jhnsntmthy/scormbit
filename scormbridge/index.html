@@ -15,7 +15,7 @@
       window.API = {
         LMSInitialize: function() {
           send_to_iOS('initialize');
-          return true;
+          return 'true';
         },
         LMSGetLastError: function() {
           return '';
@@ -28,7 +28,7 @@
         },
         LMSCommit: function() {
           send_to_iOS('commit');
-          return true;
+          return 'true';
         },
         LMSGetValue: function() {
           return '';
@@ -39,7 +39,7 @@
         },
         LMSFinish: function() {
           send_to_iOS('finish');
-          return true;
+          return 'true';
         }
       };
 
@@ -51,6 +51,7 @@
         } catch(e) {
           console.log("app message", obj, key, val, e);
         }
+        return true;
       };
       send_to_iOS('loaded');
 
