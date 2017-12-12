@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+  <activities>
+    <activity id="https://tridentshield.net/active_threat_course1" type="http://adlnet.gov/expapi/activities/course">
+      <name lang="en-US">Active Threat Readiness Training</name>
+      <description lang="en-US">&lt;p&gt;&lt;b&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;8/21/2017 BETA VERSION: All rights reserved.&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;No part of this work can be reproduced, distributed or otherwise used without the express permission from Trident Shield.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&#34;font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; text-align: inherit;&#34;&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;Trident Shield’s online Active Threat Readiness Training course teaches you how to&amp;nbsp;&lt;/span&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;prevent, prepare for, and survive a violent event in the workplace.&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;&lt;b&gt;This program is OSHA and Department of Homeland Security (DHS) Compliant.&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;You will learn our &lt;b&gt;Four-Part Readiness Program: Prepare, Escape, Hide, Attack&lt;/b&gt; by focusing on these core concepts:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&#34;font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; text-align: inherit;&#34;&gt;Prevent:&lt;/b&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt; We&lt;/span&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;&amp;nbsp;equip you with the knowledge and confidence&amp;nbsp;&lt;/span&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;to help prevent a situation from ever reaching the point of&amp;nbsp;&lt;/span&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;extreme violence.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Prepare:&lt;/b&gt; U&lt;span style=&#34;text-align: inherit;&#34;&gt;nfortunately, it is equally essential that you are&amp;nbsp;&lt;/span&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;properly educated in how to respond in a violent situation.&amp;nbsp;&lt;/span&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;Our course will cover how to prepare yourself and your&amp;nbsp;&lt;/span&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;workspace for the quickest and most effective response in&amp;nbsp;&lt;/span&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;the event of an Active Threat.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Survive:&lt;/b&gt; T&lt;span style=&#34;text-align: inherit;&#34;&gt;he ‘Skills’ component of the course will cover crucial survival&amp;nbsp;&lt;/span&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;techniques. In these dynamic situations, no single action&amp;nbsp;&lt;/span&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;will be the ‘correct’ answer for all personnel, so our goal&amp;nbsp;&lt;/span&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;is to equip each person with the ability to make their own&amp;nbsp;&lt;/span&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;informed and rational decisions to survive the event.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Safety in all aspects of your life:&amp;nbsp;&lt;/b&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;Throughout the training, the advice and techniques&amp;nbsp;&lt;/span&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;discussed will teach you how to apply the skills&amp;nbsp;&lt;/span&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;both in the workplace and in your personal life.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;* For many lessons below, you will see a&amp;nbsp;&lt;b&gt;Ⓜ&lt;/b&gt; to indicate a &lt;b&gt;Mindset&lt;/b&gt; you should practice or a&amp;nbsp;&lt;b&gt;Ⓢ&lt;/b&gt; for a &lt;b&gt;Skill&lt;/b&gt; that you should practice.&amp;nbsp;&lt;/p&gt;</description>
+    <launch lang="en-US">scormdriver/indexAPI.html</launch>
+    </activity>
+      <activity id="https://tridentshield.net/active_threat_course1/NQ5Bvo9BnGxER56ZdDLDTx0pqKpPENt7" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Introduction to this course/section</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/62tMdjq_9N9wyYxJWGLDnINhxYe4w0zV" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Learning objectives and goals/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/SpfEnLyxNFwMKXOAMhhs4UyYpJj47-eD" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Who we are/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/umoAIlmU7ktu3Vf01_2BeA0tGleFDMwH" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">workplace violence and active threats/section</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/7ZF2WulxZYR9zEuQ17yCbDNDwgKCBheT" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Types of workplace violence/map</name>
+      <description lang="en-US">&lt;p&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;This section on Workplace Violence and Active Threats includes 5 lessons focusing on &lt;b&gt;defining the issues, workplace and domestic violence, and learning about indicators of potential violence&lt;/b&gt; by a coworker or acquaintance.  By having a &lt;b&gt;clear understanding on the facts and history of active threat events, you will have a greater chance of preventing violence from occurring in your workplace.&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;Let&#39;s begin your training on active threats in the workplace with an overview of workplace violence. &lt;/span&gt;&lt;b style=&#34;font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; text-align: inherit;&#34;&gt;Workplace violence is any act or threat of physical violence, harassment, intimidation, or other threatening disruptive behavior that occurs at the work site.&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Workplace violence can take many forms and it is important that you are aware of the types of violence you may be exposed to. Fortunately, through proper preparation and awareness, many of these events can be avoided or prevented.&amp;nbsp;&lt;b&gt;Click each target area below to learn more. &lt;/b&gt;When completed, you can then advance using the menu or clicking to Continue below.&lt;/p&gt;</description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/bROfUGQ9D9W_VHcPUDv1JSDUt2PGXVKl" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Domestic violence in the workplace/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/CoD4V5sQEs6p5He0k2c0wwcy5UY8XnHP" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Active threats in the workplace/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/XXLQ2tp5gnnc72o1BOg5TmVDSqfTQpOU" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Behavioral changes to notice /blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/K854zM2PWX4fYRkbMpLK31vXLjDPHYdo" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Recognizing behavioral changes /sorting</name>
+      <description lang="en-US">&lt;p&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;Below you will find some behavioral changes that may occur in your workplace. &lt;b&gt;Which changes do you think are significant red flags? Which are behaviors to keep an eye on?&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;&lt;b&gt;Drag each card to the right target to find out!&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;When complete, you can continue to the &lt;b&gt;next lesson&amp;nbsp;&lt;/b&gt;using the menu or clicking Continue below.&lt;/span&gt;&lt;/p&gt;</description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/qZB6GqbjA2NH4Ovs_VEu3vmXTZskrbqe" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Check for understanding/quiz</name>
+      <description lang="en-US">&lt;p&gt;You are almost done with this section on &lt;b&gt;Workplace Violence and Active Threats.&lt;/b&gt;  You learned the &lt;b&gt;definitions of workplace violence and of active threat&lt;/b&gt;, as well as important &lt;b&gt;statistics and information on domestic violence&lt;/b&gt; and how to &lt;b&gt;recognize behavioral indicators of potential violence&lt;/b&gt; in a co-worker.&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Let&#39;s check for understanding on the key elements covered in this section. Please answer the 3 questions below.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;When complete, you can continue to the next section on &lt;b&gt;Foundational Elements&lt;/b&gt; using the menu or clicking Continue below.&lt;/span&gt;&lt;/p&gt;</description>
+    </activity>
+              <activity id="https://tridentshield.net/active_threat_course1/qZB6GqbjA2NH4Ovs_VEu3vmXTZskrbqe/1" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+        <name lang="en-US">&lt;p&gt;Domestic violence, harassment, and homicide are types of workplace violence.&lt;span style=&#34;text-align: inherit;&#34;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;</name>
+        <description lang="en-US"></description>
+        <interactionType>choice</interactionType>
+        <correctResponsePatterns>
+        <correctResponsePattern>choice_1_1</correctResponsePattern>
+        </correctResponsePatterns>
+        <choices>
+                  <component>
+            <id>choice_1_1</id>
+            <description lang="en-US">&lt;p&gt;True&lt;/p&gt;</description>
+          </component>
+                  <component>
+            <id>choice_1_2</id>
+            <description lang="en-US">&lt;p&gt;False&lt;/p&gt;</description>
+          </component>
+                </choices>
+      </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/qZB6GqbjA2NH4Ovs_VEu3vmXTZskrbqe/2" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+        <name lang="en-US">&lt;p&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;&#34;An emergency situation involving a person or persons actively engaged in killing or attempting to kill people in a populated area by acts of either random or systematic violence&#34; is the definition of :&lt;/span&gt;&lt;/p&gt;</name>
+        <description lang="en-US"></description>
+        <interactionType>choice</interactionType>
+        <correctResponsePatterns>
+        <correctResponsePattern>choice_2_2</correctResponsePattern>
+        </correctResponsePatterns>
+        <choices>
+                  <component>
+            <id>choice_2_1</id>
+            <description lang="en-US">&lt;p&gt;a Critical Event&lt;/p&gt;</description>
+          </component>
+                  <component>
+            <id>choice_2_2</id>
+            <description lang="en-US">&lt;p&gt;an Active Threat&lt;/p&gt;</description>
+          </component>
+                  <component>
+            <id>choice_2_cj6bce5mo001l3d5tajb5k48a</id>
+            <description lang="en-US">&lt;p&gt;a Homicide&lt;/p&gt;</description>
+          </component>
+                </choices>
+      </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/qZB6GqbjA2NH4Ovs_VEu3vmXTZskrbqe/cj69y2lns00273d5tts30e8bq" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+        <name lang="en-US">&lt;p&gt;Which is the correct order for the Behavioral Path of Violence? &lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</name>
+        <description lang="en-US"></description>
+        <interactionType>choice</interactionType>
+        <correctResponsePatterns>
+        <correctResponsePattern>choice_cj69y2lns00273d5tts30e8bq_2</correctResponsePattern>
+        </correctResponsePatterns>
+        <choices>
+                  <component>
+            <id>choice_cj69y2lns00273d5tts30e8bq_1</id>
+            <description lang="en-US">&lt;p&gt;Everyday behavior, threatening behavior, behaviors of concern, extreme behavior violence&lt;/p&gt;</description>
+          </component>
+                  <component>
+            <id>choice_cj69y2lns00273d5tts30e8bq_2</id>
+            <description lang="en-US">&lt;p&gt;Everyday behavior, behaviors of concern, threatening behavior, extreme behavior or violence&lt;/p&gt;</description>
+          </component>
+                </choices>
+      </activity>
+              <activity id="https://tridentshield.net/active_threat_course1/F_tPUvu2ZNf7BePl6lhIQDQHaY-M6RFq" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Foundational Elements/section</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/hIFIWwMn6Bb4cfT0kYGP6vuy8R4MWEBg" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Defining foundational elements: Mindset &amp; Skills/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/99oWvJhXFHLZoUbEmZuFXsLw7OwFo6DC" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US"> Situational awareness Ⓜ/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/cEDpweLOgF5-hXbTB7qzzgE8d_jARaGb" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Applying the situational awareness dial Ⓜ/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/TwARBVQ8dcT9IWbVgFR_HydNkcbCdoty" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Inhibitors to situational awareness Ⓜ/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/j7ujB6WqziCLG2Q7w42OJyr8DG-UOWav" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Active planning Ⓜ/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/_AEZBmkkCrauYfFMjW9TiFZwPCOZKxDf" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Check for understanding/quiz</name>
+      <description lang="en-US">&lt;p&gt;You are almost done with this section on &lt;b&gt;Foundational Elements&lt;/b&gt;, which included 5 lessons on &lt;b&gt;the Foundational Elements of Mindset and Skills, situational awareness, inhibitors to situational awareness, and active planning.&amp;nbsp;&lt;/b&gt;These essential components combine to &lt;b&gt;better prepare you to avoid, prevent, or survive a violent event.&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;Let&#39;s check for understanding on the key elements covered in this section. Please answer the 3 questions below.&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;When complete, you can continue to the next section on &lt;b&gt;Improvised Weapons&lt;/b&gt; using the menu or clicking Continue below.&lt;/p&gt;</description>
+    </activity>
+              <activity id="https://tridentshield.net/active_threat_course1/_AEZBmkkCrauYfFMjW9TiFZwPCOZKxDf/1" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+        <name lang="en-US">&lt;p&gt;Situational Awareness is:&lt;/p&gt;</name>
+        <description lang="en-US"></description>
+        <interactionType>choice</interactionType>
+        <correctResponsePatterns>
+        <correctResponsePattern>choice_1_1</correctResponsePattern>
+        </correctResponsePatterns>
+        <choices>
+                  <component>
+            <id>choice_1_1</id>
+            <description lang="en-US">&lt;p&gt;Being aware of what is happening around you in terms of where you are, where you are supposed to be, and whether anyone or anything around you is a threat to your health and safety. &lt;/p&gt;</description>
+          </component>
+                  <component>
+            <id>choice_1_2</id>
+            <description lang="en-US">&lt;p&gt;Controlled and repeated exposure to specific stressors to reduce stress symptoms experienced in a critical event.&lt;/p&gt;</description>
+          </component>
+                </choices>
+      </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/_AEZBmkkCrauYfFMjW9TiFZwPCOZKxDf/2" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+        <name lang="en-US">&lt;p&gt;Which of the following is NOT part of the &#34;Three Strikes Rule?&#34;&lt;/p&gt;</name>
+        <description lang="en-US"></description>
+        <interactionType>choice</interactionType>
+        <correctResponsePatterns>
+        <correctResponsePattern>choice_2_cj6b87v3q002o3d5t72kxjn79</correctResponsePattern>
+        </correctResponsePatterns>
+        <choices>
+                  <component>
+            <id>choice_2_1</id>
+            <description lang="en-US">&lt;p&gt;Person&lt;/p&gt;</description>
+          </component>
+                  <component>
+            <id>choice_2_2</id>
+            <description lang="en-US">&lt;p&gt;Place&lt;/p&gt;</description>
+          </component>
+                  <component>
+            <id>choice_2_cj6b87v3q002o3d5t72kxjn79</id>
+            <description lang="en-US">&lt;p&gt;Thing&lt;/p&gt;</description>
+          </component>
+                </choices>
+      </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/_AEZBmkkCrauYfFMjW9TiFZwPCOZKxDf/cj69yglsy00283d5tbdg0ouib" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+        <name lang="en-US">&lt;p&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;Normalcy bias is defined as: Disbelieving one&#39;s situation when faced with novel, grave and imminent danger, due to the lack of experience or training to be able to appropriately assess and respond.&lt;/span&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</name>
+        <description lang="en-US"></description>
+        <interactionType>choice</interactionType>
+        <correctResponsePatterns>
+        <correctResponsePattern>choice_cj69yglsy00283d5tbdg0ouib_1</correctResponsePattern>
+        </correctResponsePatterns>
+        <choices>
+                  <component>
+            <id>choice_cj69yglsy00283d5tbdg0ouib_1</id>
+            <description lang="en-US">&lt;p&gt;True&lt;/p&gt;</description>
+          </component>
+                  <component>
+            <id>choice_cj69yglsy00283d5tbdg0ouib_2</id>
+            <description lang="en-US">&lt;p&gt;False&lt;/p&gt;</description>
+          </component>
+                </choices>
+      </activity>
+              <activity id="https://tridentshield.net/active_threat_course1/m8odeuMjTGlzXlA6XlBA87NGBVTRodia" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Skills: Improvised Weapons/section</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/QieTCN-WXmPaU_Ie-6uVJDSyg2cuFVql" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Using improvised weapons Ⓢ/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/wxApaPrHKVz5ubYEDLiUKeov-ngx6rW5" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Improvised weapons/map</name>
+      <description lang="en-US">&lt;p&gt;This next lesson will help you think of common objects in a new way, as well as teach you how to most effectively use the objects against an attacker. You will first learn about the categories of weapon types and then learn some examples of items within each category.  &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Weapon System Categories &lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Stabbing:&lt;/b&gt; A stabbing weapon will cause a deep wound when applied with force.  To use this weapon system effectively against the attacker, you will need to focus on proper targeting and high strike volume. &lt;/p&gt;&lt;p&gt;&lt;b&gt;Slashing:&lt;/b&gt; A slashing weapon will cause long, shallow wounds when applied with force.  To use this weapon system effectively against the attacker, you also need to focus on proper targeting and high strike volume. &lt;/p&gt;&lt;p&gt;&lt;b&gt;Blunt Trauma:&lt;/b&gt; A blunt trauma weapon will shatter bone when applied with force to bony prominences, such as elbow or knees.   To use this weapon system effectively against the attacker, you will need to focus on proper targeting and strike power. &lt;/p&gt;&lt;p&gt;&lt;b&gt;Chemical:&lt;/b&gt; Chemical weapons will not stop the attacker, but will cause them distress and difficulty in seeing their surroundings.  To use this weapon system effectively against the attacker, you will need to focus on proper targeting and high chemical volume.&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Light:&lt;/b&gt; Light does not actually harm the attacker, but can cause them disorientation and difficulty in seeing their surroundings.  To use this weapon system effectively against the attacker, you will need to focus on proper targeting and Lumen (power) level. &amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Click each target area below to learn more about each of these types of improvised weapons.&lt;/b&gt;&amp;nbsp;&lt;/p&gt;</description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/FrjL6jRFr6bT5cMm88l117KDzOYBki1v" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Check for understanding/quiz</name>
+      <description lang="en-US">&lt;p&gt;You are almost done with this section on &lt;b&gt;Improvised Weapons&lt;/b&gt;, which helped you understand how you can &lt;b&gt;use improvised weapons when defending against your attacker.&lt;/b&gt; This is a Skill &lt;b&gt;that you can prepare and rehearse for&lt;/b&gt; by pre-selecting your improvised weapon and becoming comfortable and efficient at locating and holding it properly.&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Let&#39;s check for understanding on the key elements covered in this section. Please answer the 3 questions below.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;When complete, you can continue to the next section on &lt;b&gt;Barricading&lt;/b&gt;&amp;nbsp;using the menu or clicking Continue below.&lt;/p&gt;</description>
+    </activity>
+              <activity id="https://tridentshield.net/active_threat_course1/FrjL6jRFr6bT5cMm88l117KDzOYBki1v/1" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+        <name lang="en-US">&lt;p&gt;For a blunt trauma improvised weapon to be most effective:&lt;/p&gt;</name>
+        <description lang="en-US"></description>
+        <interactionType>choice</interactionType>
+        <correctResponsePatterns>
+        <correctResponsePattern>choice_1_2</correctResponsePattern>
+        </correctResponsePatterns>
+        <choices>
+                  <component>
+            <id>choice_1_1</id>
+            <description lang="en-US">&lt;p&gt;Proper targeting and volume are key&amp;nbsp;&lt;/p&gt;</description>
+          </component>
+                  <component>
+            <id>choice_1_2</id>
+            <description lang="en-US">&lt;p&gt;Proper targeting and power are key.&lt;/p&gt;</description>
+          </component>
+                </choices>
+      </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/FrjL6jRFr6bT5cMm88l117KDzOYBki1v/2" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+        <name lang="en-US">&lt;p&gt;Scissors, silverware and pens are common office items that can be used as which type of improvised weapon?&lt;/p&gt;</name>
+        <description lang="en-US"></description>
+        <interactionType>choice</interactionType>
+        <correctResponsePatterns>
+        <correctResponsePattern>choice_2_2</correctResponsePattern>
+        </correctResponsePatterns>
+        <choices>
+                  <component>
+            <id>choice_2_1</id>
+            <description lang="en-US">&lt;p&gt;Slashing&lt;/p&gt;</description>
+          </component>
+                  <component>
+            <id>choice_2_2</id>
+            <description lang="en-US">&lt;p&gt;Stabbing&lt;/p&gt;</description>
+          </component>
+                </choices>
+      </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/FrjL6jRFr6bT5cMm88l117KDzOYBki1v/cj69z86x9002a3d5t6b395ejh" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+        <name lang="en-US">&lt;p&gt;Why should I pre-select and practice using my improvised weapon?&lt;/p&gt;</name>
+        <description lang="en-US"></description>
+        <interactionType>choice</interactionType>
+        <correctResponsePatterns>
+        <correctResponsePattern>choice_cj69z86x9002a3d5t6b395ejh_cj6bb4dh6001m3d61helkpwkm</correctResponsePattern>
+        </correctResponsePatterns>
+        <choices>
+                  <component>
+            <id>choice_cj69z86x9002a3d5t6b395ejh_1</id>
+            <description lang="en-US">&lt;p&gt;I need to understand ahead of an incident if my weapon is best used for blunt trauma, stabbing, slashing, or other so that I know the best way to use it.&lt;/p&gt;</description>
+          </component>
+                  <component>
+            <id>choice_cj69z86x9002a3d5t6b395ejh_2</id>
+            <description lang="en-US">&lt;p&gt;I need to determine which weapon system option is the best match for my body size and ability. &lt;/p&gt;</description>
+          </component>
+                  <component>
+            <id>choice_cj69z86x9002a3d5t6b395ejh_cj6bb2tb3001l3d612fp0a5uw</id>
+            <description lang="en-US">&lt;p&gt;I need to know where my chosen improvised weapon will be located in the event of an active threat, so I don&#39;t have to waste time searching for one. &lt;/p&gt;</description>
+          </component>
+                  <component>
+            <id>choice_cj69z86x9002a3d5t6b395ejh_cj6bb4dh6001m3d61helkpwkm</id>
+            <description lang="en-US">&lt;p&gt;All of the above.&lt;/p&gt;</description>
+          </component>
+                </choices>
+      </activity>
+              <activity id="https://tridentshield.net/active_threat_course1/hG1pS8oUAfeCQlUSwoL4XM2mZ6WNaXtC" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Skills: Barricading/section</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/1XhMZ4hfkdNGRTRQfYZ420dUq9JP8Utv" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Barricading Ⓢ/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/Z-NBrgaBzwzdtIqN2kxU_mL-8np3H1sF" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Barricading - Typical office environment Ⓢ/map</name>
+      <description lang="en-US">&lt;p&gt;When choosing a room to barricade in your office or workspace, select a room that has plenty of movable items that are rigid and non-compressible.  Remember that not all spaces can be barricaded easily, especially when working in an open floor plan, such as a warehouse or office with cubicles.  &lt;b&gt;Click each marker below to see how each of the items can be used in your barricade.&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;</description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/0vrYozQNfXSTD0mGMF8efiUBpyx32hyI" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Barricading - Home environment Ⓢ/map</name>
+      <description lang="en-US">&lt;p&gt;If you are needing to protect yourself from a home invasion, domestic abuse, or other violent event in your house, your bedroom is often a good location to barricade.  If you have young children, you will likely want to plan your barricade for their room, as they may not be able to come to you in an emergency.  &lt;b&gt;Click each marker below to learn how each item can be used in your barricade.&lt;/b&gt; &amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;When complete, you can continue to the next lesson using the menu of clicking continue below.&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/JeaAa9wTZbxoENW004f01sughXfnp0UJ" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Check for understanding/quiz</name>
+      <description lang="en-US">&lt;p&gt;You are almost done with this section on &lt;b&gt;Barricading&lt;/b&gt;, which included 3 lessons on how &lt;b&gt;to prepare for and execute a proper barricade.  This is a skill that you should rehearse both at home and at work.&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Let&#39;s check for understanding on the key elements covered in this section. Please answer the 3 questions below. &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;When complete, you can continue to the next section on&lt;b&gt;&amp;nbsp;Firearms&amp;nbsp;&lt;/b&gt;using the menu or clicking Continue below.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</description>
+    </activity>
+              <activity id="https://tridentshield.net/active_threat_course1/JeaAa9wTZbxoENW004f01sughXfnp0UJ/1" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+        <name lang="en-US">&lt;p&gt;Which combination of items is more suitable for barricading?&lt;/p&gt;</name>
+        <description lang="en-US"></description>
+        <interactionType>choice</interactionType>
+        <correctResponsePatterns>
+        <correctResponsePattern>choice_1_2</correctResponsePattern>
+        </correctResponsePatterns>
+        <choices>
+                  <component>
+            <id>choice_1_1</id>
+            <description lang="en-US">&lt;p&gt;Desk, rolling office chairs, and several pillows&lt;/p&gt;</description>
+          </component>
+                  <component>
+            <id>choice_1_2</id>
+            <description lang="en-US">&lt;p&gt;Bookshelf, coffee table, and several packs of paper&amp;nbsp;&lt;/p&gt;</description>
+          </component>
+                </choices>
+      </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/JeaAa9wTZbxoENW004f01sughXfnp0UJ/2" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+        <name lang="en-US">&lt;p&gt;In pre-selecting your barricade room, you should look for an:&lt;/p&gt;</name>
+        <description lang="en-US"></description>
+        <interactionType>choice</interactionType>
+        <correctResponsePatterns>
+        <correctResponsePattern>choice_2_1</correctResponsePattern>
+        </correctResponsePatterns>
+        <choices>
+                  <component>
+            <id>choice_2_1</id>
+            <description lang="en-US">&lt;p&gt;Inward-opening door&lt;/p&gt;</description>
+          </component>
+                  <component>
+            <id>choice_2_2</id>
+            <description lang="en-US">&lt;p&gt;Outward opening door&lt;/p&gt;</description>
+          </component>
+                </choices>
+      </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/JeaAa9wTZbxoENW004f01sughXfnp0UJ/cj69ytg4w00293d5t0f9q0zmc" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+        <name lang="en-US">&lt;p&gt;If you run out of time to completely barricade your room, you should:&lt;/p&gt;</name>
+        <description lang="en-US"></description>
+        <interactionType>choice</interactionType>
+        <correctResponsePatterns>
+        <correctResponsePattern>choice_cj69ytg4w00293d5t0f9q0zmc_2</correctResponsePattern>
+        </correctResponsePatterns>
+        <choices>
+                  <component>
+            <id>choice_cj69ytg4w00293d5t0f9q0zmc_1</id>
+            <description lang="en-US">&lt;p&gt;Crouch behind the nearest, largest piece of furniture.&lt;/p&gt;</description>
+          </component>
+                  <component>
+            <id>choice_cj69ytg4w00293d5t0f9q0zmc_2</id>
+            <description lang="en-US">&lt;p&gt;Use your body to fill in the remaining space - lay flat on the floor and wedge yourself tightly between the furniture and the wall.&lt;/p&gt;</description>
+          </component>
+                </choices>
+      </activity>
+              <activity id="https://tridentshield.net/active_threat_course1/dbSxScIDxCdTAzPR3j-0sFgD4jOUV-Pl" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Skills: Firearms/section</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/9YYt8afjQ138i6bK8qogOyP17E8gaRiB" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Firearms /blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/JJVdUv-d6vXSfNCud8H8llzzUH9pARAp" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Understanding the pistol/map</name>
+      <description lang="en-US">&lt;p&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;&lt;b&gt;Click on each marker below to learn more about the semi-automatic pistol.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;</description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/62nx7GYjOem-SQaQVjXlTksXIxjZw3A8" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Understanding the rifle/map</name>
+      <description lang="en-US">&lt;p&gt;&lt;b&gt;Click on each marker to learn more about the semi-automatic rifle.&amp;nbsp;&lt;/b&gt;&lt;/p&gt;</description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/p-U0LOAPLueOBmvphIstsyly14SkICLp" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Disabling a firearm Ⓢ/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/7Ow81-E_3GFCqlSwGMP4af7qP8YRN94A" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Check for understanding/quiz</name>
+      <description lang="en-US">&lt;p&gt;&lt;span style=&#34;text-align: inherit;&#34;&gt;You are almost done with this section on &lt;b&gt;Firearms&lt;/b&gt;, which included 3 lessons that taught you how &lt;b&gt;semi-automatic pistols and rifles work, but more importantly, how you have the ability to render these firearms useless&lt;/b&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Let&#39;s check for understanding on the key elements covered in this section. Please answer the 3 questions below.&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;When complete, you can continue to the next section on &lt;b&gt;Ambush&lt;/b&gt;&amp;nbsp;using the menu or clicking Continue below.&lt;/p&gt;</description>
+    </activity>
+              <activity id="https://tridentshield.net/active_threat_course1/7Ow81-E_3GFCqlSwGMP4af7qP8YRN94A/1" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+        <name lang="en-US">&lt;p&gt;To disable a pistol or rifle, you must first pull out the magazine that houses the bullets.&lt;/p&gt;</name>
+        <description lang="en-US"></description>
+        <interactionType>choice</interactionType>
+        <correctResponsePatterns>
+        <correctResponsePattern>choice_1_2</correctResponsePattern>
+        </correctResponsePatterns>
+        <choices>
+                  <component>
+            <id>choice_1_1</id>
+            <description lang="en-US">&lt;p&gt;True&lt;/p&gt;</description>
+          </component>
+                  <component>
+            <id>choice_1_2</id>
+            <description lang="en-US">&lt;p&gt;False&lt;/p&gt;</description>
+          </component>
+                </choices>
+      </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/7Ow81-E_3GFCqlSwGMP4af7qP8YRN94A/2" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+        <name lang="en-US">&lt;p&gt;Which of the following is the vulnerable part of a semi-automatic rifle that you will be blocking with your hand? &lt;/p&gt;</name>
+        <description lang="en-US"></description>
+        <interactionType>choice</interactionType>
+        <correctResponsePatterns>
+        <correctResponsePattern>choice_2_2</correctResponsePattern>
+        </correctResponsePatterns>
+        <choices>
+                  <component>
+            <id>choice_2_1</id>
+            <description lang="en-US">&lt;p&gt;Trigger&lt;/p&gt;</description>
+          </component>
+                  <component>
+            <id>choice_2_2</id>
+            <description lang="en-US">&lt;p&gt;Ejection port&lt;/p&gt;</description>
+          </component>
+                  <component>
+            <id>choice_2_cj6b8q63s002p3d5tbsrdvx60</id>
+            <description lang="en-US">&lt;p&gt;Barrel&lt;/p&gt;</description>
+          </component>
+                </choices>
+      </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/7Ow81-E_3GFCqlSwGMP4af7qP8YRN94A/cj69zhhqy002b3d5ts5zwjo92" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+        <name lang="en-US">&lt;p&gt;After jamming the firearm, that weapon will no longer be able to function and you can let go of the gun. &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</name>
+        <description lang="en-US"></description>
+        <interactionType>choice</interactionType>
+        <correctResponsePatterns>
+        <correctResponsePattern>choice_cj69zhhqy002b3d5ts5zwjo92_2</correctResponsePattern>
+        </correctResponsePatterns>
+        <choices>
+                  <component>
+            <id>choice_cj69zhhqy002b3d5ts5zwjo92_1</id>
+            <description lang="en-US">&lt;p&gt;True&lt;/p&gt;</description>
+          </component>
+                  <component>
+            <id>choice_cj69zhhqy002b3d5ts5zwjo92_2</id>
+            <description lang="en-US">&lt;p&gt;False&lt;/p&gt;</description>
+          </component>
+                </choices>
+      </activity>
+              <activity id="https://tridentshield.net/active_threat_course1/xBEfRhZ8P1luQCGMbp2JJfb0L2K8f_Of" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Skills: Ambush/section</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/5H7Hn6PUw_BLFxeMUoHzxa5EirbgT2lC" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Ambush tactics Ⓢ/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/OBBao3j8ZFaOUZpaf0U-UoX2RlrbSlkM" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Check for understanding/quiz</name>
+      <description lang="en-US">&lt;p&gt;You are almost done with this section on &lt;b&gt;Ambush Tactics&lt;/b&gt;,&lt;b&gt; which highlighted the critical Skill of performing a coordinated attack against the attacker.&lt;/b&gt; This is a Skill you should &lt;b&gt;practice as a team&lt;/b&gt;, but you should be prepared to respond on your own if necessary. &amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Let&#39;s check for understanding on the key elements covered in this section. Please answer the 3 questions below.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;When complete, you can continue to the next section on &lt;b&gt;Prepare, Escape, Hide, Attack&lt;/b&gt; using the menu or clicking Continue below.&lt;/p&gt;</description>
+    </activity>
+              <activity id="https://tridentshield.net/active_threat_course1/OBBao3j8ZFaOUZpaf0U-UoX2RlrbSlkM/1" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+        <name lang="en-US">&lt;p&gt;There are pre-defined responsibilities for each member of a 3-person ambush team.&lt;/p&gt;</name>
+        <description lang="en-US"></description>
+        <interactionType>choice</interactionType>
+        <correctResponsePatterns>
+        <correctResponsePattern>choice_1_1</correctResponsePattern>
+        </correctResponsePatterns>
+        <choices>
+                  <component>
+            <id>choice_1_1</id>
+            <description lang="en-US">&lt;p&gt;True&lt;/p&gt;</description>
+          </component>
+                  <component>
+            <id>choice_1_2</id>
+            <description lang="en-US">&lt;p&gt;False&lt;/p&gt;</description>
+          </component>
+                </choices>
+      </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/OBBao3j8ZFaOUZpaf0U-UoX2RlrbSlkM/2" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+        <name lang="en-US">&lt;p&gt;While preparing to ambush, you and your team want to stand so that the door, if opened by the attacker, opens onto you and gives you cover.&lt;/p&gt;</name>
+        <description lang="en-US"></description>
+        <interactionType>choice</interactionType>
+        <correctResponsePatterns>
+        <correctResponsePattern>choice_2_2</correctResponsePattern>
+        </correctResponsePatterns>
+        <choices>
+                  <component>
+            <id>choice_2_1</id>
+            <description lang="en-US">&lt;p&gt;True&lt;/p&gt;</description>
+          </component>
+                  <component>
+            <id>choice_2_2</id>
+            <description lang="en-US">&lt;p&gt;False&lt;/p&gt;</description>
+          </component>
+                </choices>
+      </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/OBBao3j8ZFaOUZpaf0U-UoX2RlrbSlkM/cj6a1d7ys002g3d5tnqya1mvo" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+        <name lang="en-US">&lt;p&gt;If I can&#39;t find an ambush location, attacking will not be a response option for me.&lt;/p&gt;</name>
+        <description lang="en-US"></description>
+        <interactionType>choice</interactionType>
+        <correctResponsePatterns>
+        <correctResponsePattern>choice_cj6a1d7ys002g3d5tnqya1mvo_2</correctResponsePattern>
+        </correctResponsePatterns>
+        <choices>
+                  <component>
+            <id>choice_cj6a1d7ys002g3d5tnqya1mvo_1</id>
+            <description lang="en-US">&lt;p&gt;True&lt;/p&gt;</description>
+          </component>
+                  <component>
+            <id>choice_cj6a1d7ys002g3d5tnqya1mvo_2</id>
+            <description lang="en-US">&lt;p&gt;False&lt;/p&gt;</description>
+          </component>
+                </choices>
+      </activity>
+              <activity id="https://tridentshield.net/active_threat_course1/KfV8lGRs99HN11ZbuTQTiuJbZqbNu_JQ" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Prepare, Escape, Hide, Attack/section</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/uN6RmsaelqMC0k7D4rHUSeLxkLPBhXcM" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Prepare/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/wHFN-eexakGX2agP75qF7p9ltmiB0JdS" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Escape /blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/BQ8FmZ4lkrlrrAgcnyAhp7v46iQ_pa7j" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Hide/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/dIIY5yp0WsioGn6A1aw7DnLIcEX1wKgk" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Attack/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/qGvr1LYljkDFR3fCbQ4EsWBHhgcUzWpP" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Law enforcement/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="https://tridentshield.net/active_threat_course1/6vs89ZHMumnx6VsuO8F40OQ7GzqsPXo6" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Key take-aways and conclusion/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+        </activities>
+</tincan>
