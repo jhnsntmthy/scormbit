@@ -1,0 +1,314 @@
+{
+	"config": {
+		"indicator": true,
+		"pagination": false,
+		"pageNumbers": true,
+		"colors": {
+			"background": "#f7931e",
+			"text": "#fff"
+		},
+		"hasAnswerFeedback": true,
+		"disableInteractionSummary": true,
+		"disableLessonScore": false,
+		"minimumScore": 80,
+		"logo": "fit_content_assets/1460698404820.png",
+		"customCSS": "",
+		"background": "fit_content_assets/course.config.background-1481001040739.jpeg",
+		"incompleteOnFail": false
+	},
+	"isOnline": false,
+	"isAudio": false,
+	"slides": [
+		{
+			"templateName": "Image Gallery",
+			"type": "image-gallery",
+			"data": {
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false
+				},
+				"background": "",
+				"lightbox": false,
+				"prompt": "Swipe to continue",
+				"images": [
+					{
+						"caption": "# **Approaching a Lift**\n\nA common workplace injury is to the back, caused by incorrect lifting or handling of heavy or large objects. \n\nOften, the injury won’t be felt for some time and may be permanent.\n\nSwipe to review each of the seven steps to safe lifting."
+					},
+					{
+						"caption": "## Step 1 – Plan for the lift. \nConsider the task duration, the layout of the work environment and experience of lift participants. Make sure your route is clear.",
+						"image": "fit_content_assets/1460958260677.png"
+					},
+					{
+						"caption": "## Step 2 – Get in position.\nStand close to the load with yout feet apart creating a stable base for lifting.",
+						"image": "fit_content_assets/1460958270422.png"
+					},
+					{
+						"caption": "## Step 3 – Begin lift\nBend at the knees and keep your back straight.",
+						"image": "fit_content_assets/1460958281485.png"
+					},
+					{
+						"caption": "## Step 4 – Pick up the object\nGet a firm grip and move the object close to the body.",
+						"image": "fit_content_assets/1460958292782.png"
+					},
+					{
+						"caption": "## Step 5 - Lift\nAlways lift smoothly (do not jerk). Where possible exert force in a forward or backward motion, as movements such as twisting, bending and overreaching will increase the risk of injury.",
+						"image": "fit_content_assets/1460958302943.png"
+					},
+					{
+						"caption": "## Step 6 – Manoeuvre the object\nAlways keep arms and load close to your body when turning.",
+						"image": "fit_content_assets/1460958311377.png"
+					},
+					{
+						"caption": "## Step 7 – Lower the object\nUse the leg muscles to lower the load. Keep your back as straight as possible.",
+						"image": "fit_content_assets/1460958320782.png"
+					}
+				],
+				"title": "Approaching a Lift"
+			},
+			"name": 0,
+			"metadata": {
+				"questions": []
+			},
+			"id": "72a15029-c727-52cf-65bc-35907fdd6db2"
+		},
+		{
+			"templateDescription": "Tap the correct answer(s)",
+			"templateName": "Multiple Choice",
+			"name": 1,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": 2
+				},
+				"game": {
+					"timer": {
+						"limit": 10000
+					}
+				},
+				"prompt": "Tap the correct answer",
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "It is important to give full consideration to the following areas when planning a lift;\n- Where and how equipment is laid out.\n- The location where the object is to be set down.\n- The size and weight of the object."
+				},
+				"answers": [
+					{
+						"correct": true,
+						"content": "All of the above"
+					},
+					{
+						"correct": false,
+						"content": "Where and how equipment is laid out which could block your route."
+					},
+					{
+						"correct": false,
+						"content": "The size and weight of the object which is to be lifted."
+					},
+					{
+						"correct": false,
+						"content": "The location where the object is to be set down."
+					}
+				],
+				"randomize": true,
+				"selectable": 1,
+				"title": "What do you need to know when planning a&nbsp;lift?",
+				"titleType": ""
+			},
+			"type": "multiple-choice-game",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"type": "",
+							"content": "What do you need to know when planning a&nbsp;lift?",
+							"id": "2420c4af-ea97-49af-a04a-556d311ff427"
+						},
+						"answers": [
+							{
+								"content": "All of the above",
+								"correct": true,
+								"id": "d81b1b76-ba1a-41ef-810b-517e8af9fc9f"
+							},
+							{
+								"content": "Where and how equipment is laid out which could block your route.",
+								"correct": false,
+								"id": "8367a034-351d-4df9-af43-55b7d67df40a"
+							},
+							{
+								"content": "The size and weight of the object which is to be lifted.",
+								"correct": false,
+								"id": "77be0017-79bc-4040-bbc1-f3afb43998bb"
+							},
+							{
+								"content": "The location where the object is to be set down.",
+								"correct": false,
+								"id": "f11b941e-63e8-4c29-a4ca-2e3af687349d"
+							}
+						]
+					}
+				]
+			},
+			"id": "f1a92acb-27b6-dffa-a458-eb6e6a7a5d31"
+		},
+		{
+			"templateName": "Categorise",
+			"name": 2,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": 1
+				},
+				"prompt": "Drag to the correct category",
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "Objects need to be carefully assessed on an individual basis as to whether they can be lifted safely. Test the load prior to attempting a lift and make sure you know how heavy it is.\n\n**Do not** attempt a lift unless you are sure if it is safe to proceed."
+				},
+				"categories": [
+					{
+						"correct": false,
+						"text": "**True** "
+					},
+					{
+						"correct": true,
+						"text": "**False**"
+					}
+				],
+				"buttonText": "<span class=\"text-normal\">When planning a lift you only need to have a guess at an object's weight before performing the lift.</span>",
+				"title": "Is the following statement **true** or&nbsp;**false?**",
+				"titleType": ""
+			},
+			"type": "categorise",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"type": "",
+							"content": "Is the following statement **true** or&nbsp;**false?**",
+							"id": "2fb92996-dbb4-49be-bda5-b3dc127e2680"
+						},
+						"answers": [
+							{
+								"content": "**True** ",
+								"correct": false,
+								"id": "84267372-4aba-4e11-a1e8-bdcc620597bc"
+							},
+							{
+								"content": "**False**",
+								"correct": true,
+								"id": "fff72c79-049e-4772-a4b7-d7caec3a047a"
+							}
+						]
+					}
+				]
+			},
+			"id": "8e5999e1-cbd7-8ab7-dcb6-c05d52ae4fb0"
+		},
+		{
+			"templateName": "Slider",
+			"name": 3,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": 1
+				},
+				"prompt": "Drag to set the correct value",
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"value": 1,
+					"text": "When carrying out a team lift, ensure that only **one** person is giving out instructions."
+				},
+				"slider": {
+					"decimals": 0,
+					"labels": 4,
+					"increment": 1,
+					"suffix": "",
+					"prefix": "",
+					"max": 3,
+					"min": 0
+				},
+				"title": "In a team lift, how many people should be giving orders?"
+			},
+			"type": "slider",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"type": "text",
+							"content": "In a team lift, how many people should be giving orders?",
+							"id": "dca0db0d-88d2-4837-bda0-10721d7e839f"
+						},
+						"answers": [
+							{
+								"content": 1,
+								"correct": true,
+								"id": "e2edb3fd-80d3-45e8-a83c-dec4d2613d35"
+							},
+							{
+								"correct": false,
+								"id": "3887434e-2a30-4fe4-a287-306e4edea54a"
+							}
+						]
+					}
+				]
+			},
+			"id": "745f10be-45a8-e2cb-0863-eaef4f0032a2"
+		},
+		{
+			"templateName": "Next in Order",
+			"name": 4,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": 5
+				},
+				"game": {
+					"stars": {
+						"max": 10000,
+						"min": 1000
+					},
+					"timer": {
+						"limit": 10000
+					}
+				},
+				"imposters": [],
+				"sequence": [
+					"fit_content_assets/1460958367681.png",
+					"fit_content_assets/1460958374341.png",
+					"fit_content_assets/1460958379980.png",
+					"fit_content_assets/1460958393554.png",
+					"fit_content_assets/1460958397517.png",
+					"fit_content_assets/1460958403474.png",
+					"fit_content_assets/1460958410436.png"
+				],
+				"prompt": "Select the next step for executing a lift",
+				"description": "Can you remember the correct order of steps to executing a lift?\n\nIn this game, you need to select the correct image which fills in the gap in the sequence of steps for executing a safe lift.\n\nYou'll need to earn **10,000 ponts** to earn all 5 stars.",
+				"title": "**The Lift Light and Lift Right game**"
+			},
+			"type": "game-next-in-order",
+			"metadata": {
+				"questions": []
+			},
+			"id": "23584dbe-655d-1159-e621-ecf381b994ae"
+		},
+		{
+			"templateName": "Exit Lesson",
+			"type": "exit",
+			"permanent": true,
+			"data": {
+				"buttonText": "Exit Lesson",
+				"content": "Nice work. You've reached the end of this lesson.",
+				"title": "**That's it!**"
+			},
+			"name": 5,
+			"metadata": {
+				"questions": []
+			},
+			"id": "9a743ebf-5a90-5b23-d3f4-e3ea24dbf6ce"
+		}
+	],
+	"title": "Safe lifting",
+	"scorm": true,
+	"index": 0,
+	"id": "59d284334eb20800018fc061"
+}

@@ -1,0 +1,408 @@
+{
+	"config": {
+		"indicator": true,
+		"pagination": false,
+		"pageNumbers": true,
+		"colors": {
+			"background": "#f7931e",
+			"text": "#fff"
+		},
+		"hasAnswerFeedback": true,
+		"disableInteractionSummary": true,
+		"disableLessonScore": false,
+		"minimumScore": 80,
+		"logo": "fit_content_assets/1460698404820.png",
+		"customCSS": "",
+		"background": "fit_content_assets/course.config.background-1481001040739.jpeg",
+		"incompleteOnFail": false
+	},
+	"isOnline": true,
+	"isAudio": true,
+	"slides": [
+		{
+			"templateDescription": "Display rich content and images.",
+			"templateName": "Text And Images",
+			"type": "text-and-images",
+			"data": {
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false
+				},
+				"prompt": "Scroll to see more",
+				"content": [
+					{
+						"image": "fit_content_assets/1460345394337.jpg",
+						"text": "Slips, Trips and Falls in the workplace are an ever present hazard and can result in far more serious consequences than minor abrasions or bruising. A slip or fall can cause injury to the arms, legs, back, neck or head.\n\nNeck and head injuries can cause damage to the spinal cord and nervous system. Many workers have suffered permanent disabling injuries or death as a result of a fall. "
+					},
+					{
+						"text": "The objective of this lesson is that workers can identify slip, trip and fall hazards and demonstrate a general understanding of  minimising and eliminating the risks. "
+					}
+				],
+				"title": "**Slips, Trips and Falls**"
+			},
+			"name": 0,
+			"metadata": {
+				"questions": []
+			},
+			"id": "e5a5ed96-59a1-ca8b-2262-c9d500fb4561"
+		},
+		{
+			"templateDescription": "Display a video hosted on YouTube",
+			"templateName": "YouTube Video",
+			"type": "youtube-video-embed",
+			"data": {
+				"autoplay": true,
+				"videoId": "9P5zZuR1QXA",
+				"title": ""
+			},
+			"name": 1,
+			"metadata": {
+				"questions": []
+			},
+			"id": "55f37380-b8a5-94ac-1cb4-b63f90f70645"
+		},
+		{
+			"templateName": "Ratio",
+			"type": "ratio",
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": 2
+				},
+				"prompt": "Drag to set the correct value",
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "Slips, Trips and Falls accounted for just over **30%** of all accidents in 2015 - the most significant single contributor to workplace injuries."
+				},
+				"ratio": {
+					"independent": false,
+					"increment": 10,
+					"suffix": "%",
+					"prefix": "",
+					"total": 100,
+					"bars": [
+						{
+							"value": 70,
+							"title": "All other accidents"
+						},
+						{
+							"value": 30,
+							"title": "Slips, Trips and Falls"
+						}
+					]
+				},
+				"title": "What percentage of workplace injuries were caused by Slips, Trips and Falls in 2015, compared to other accident types?\n"
+			},
+			"name": 2,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"type": "text",
+							"category": "What percentage of workplace injuries were caused by Slips, Trips and Falls in 2015, compared to other accident types?\n",
+							"content": "All other accidents",
+							"id": "14b8e64a-c399-4976-a02c-83d0acdcb96a"
+						},
+						"answers": [
+							{
+								"content": 70,
+								"correct": true,
+								"id": "37b9ec83-accc-4355-9902-30a0ba076487"
+							},
+							{
+								"correct": false,
+								"id": "750141da-7b44-452d-8e3b-fb07652db385"
+							}
+						]
+					},
+					{
+						"question": {
+							"type": "text",
+							"category": "What percentage of workplace injuries were caused by Slips, Trips and Falls in 2015, compared to other accident types?\n",
+							"content": "Slips, Trips and Falls",
+							"id": "cbf392a2-723d-4593-b344-5289323c01e1"
+						},
+						"answers": [
+							{
+								"content": 30,
+								"correct": true,
+								"id": "5fef04f1-4c4c-4556-b3e2-97b12a799689"
+							},
+							{
+								"correct": false,
+								"id": "22d393cf-cd86-48ab-98a3-fd9143aec050"
+							}
+						]
+					}
+				]
+			},
+			"id": "b7880e29-7e1c-dbed-7087-8083293f166d"
+		},
+		{
+			"templateName": "Reorder",
+			"name": 3,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": 2
+				},
+				"prompt": "Put the items in the correct order",
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "Although there are several different factors, a **wet floor surface** is the most common contributor to Slips, Trips and Falls. \n\nEnsure you clean up any spills or debris immediately."
+				},
+				"list": [
+					"Floor surface – wet, slippery or containing obstacles.",
+					"Obstructed vision",
+					"Unsuitable footwear",
+					"Unstable walkways"
+				],
+				"title": "Rank the factors contributing to Slips, Trips and Falls order of their occurrence rate.",
+				"titleType": ""
+			},
+			"type": "reorder",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"type": "text",
+							"content": "Rank the factors contributing to Slips, Trips and Falls order of their occurrence rate.",
+							"id": "f50503b7-0ed7-4113-9647-bd0d8d50f5b9"
+						},
+						"answers": [
+							{
+								"content": "Floor surface – wet, slippery or containing obstacles. | Obstructed vision | Unsuitable footwear | Unstable walkways",
+								"correct": true,
+								"id": "2ef653b9-21d4-4726-9425-9a488cc86fe2"
+							},
+							{
+								"correct": false,
+								"id": "ee575dd0-acbf-4491-8a78-e053609e6fa8"
+							}
+						]
+					}
+				]
+			},
+			"id": "7c2f3c5d-8020-de5b-9059-996a0f42c491"
+		},
+		{
+			"templateName": "Chat",
+			"name": 4,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": 2
+				},
+				"prompt": "Tap the best reply to the message",
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "Make sure your footwear complies with company standards, and point out the risks to anyone you see in unsuitable footwear. \n\nShoes should be cleated, soft rubber soles and have heels with ankle support"
+				},
+				"answers": {
+					"incorrect": [
+						"You're right, any type of footwear will be fine. Companies would be sued if they made footwear with poor grip."
+					],
+					"correct": "The rules about footwear aren't for fun; they are there to protect your safety. Your footwear needs to meet company standards."
+				},
+				"message": {
+					"responder": "What's your answer?",
+					"sender": "Coworker",
+					"content": "It doesn't matter what footwear I use as long as I don't get caught."
+				},
+				"title": ""
+			},
+			"type": "chat",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"type": "text",
+							"content": "It doesn't matter what footwear I use as long as I don't get caught.",
+							"id": "7f548b3b-6212-439b-9eeb-a43563a3bf33"
+						},
+						"answers": [
+							{
+								"content": "The rules about footwear aren't for fun; they are there to protect your safety. Your footwear needs to meet company standards.",
+								"correct": true,
+								"id": "0943670b-9169-458b-89ca-6d3cdcc5525b"
+							},
+							{
+								"content": "You're right, any type of footwear will be fine. Companies would be sued if they made footwear with poor grip.",
+								"correct": false,
+								"id": "23787dba-f4d7-4598-a910-7059cb307490"
+							}
+						]
+					}
+				]
+			},
+			"id": "20802d14-df89-8f44-64b7-780cf8dd7dfc"
+		},
+		{
+			"templateDescription": "Display a list of bullet points",
+			"templateName": "Expandable List",
+			"type": "expandable-list",
+			"data": {
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false
+				},
+				"prompt": "Tap to see more",
+				"focus": true,
+				"list": [
+					{
+						"content": "- Wear shoes with cleated, soft rubber soles and heels with ankle support.\n- Walking areas must be clear of obstacles.\n- Slip resistant mats should be applied to risk areas.\n- Spills should be cleaned up immediately.",
+						"title": "Floor surface – wet, slippery or containing obstacles."
+					},
+					{
+						"content": "- There should be sufficient lighting in every workplace.\n- Look carefully when walking.\n- Don't carry oversized objects that limit vision.",
+						"title": "Obstructed vision"
+					},
+					{
+						"content": "- Watch out for:\n - Unstable floorboards\n - Uneven tiles\n - Slick rugs and mats",
+						"title": "Unstable walkways."
+					}
+				],
+				"title": "Review the causes of Slips, Trips and Falls and their solutions"
+			},
+			"name": 5,
+			"metadata": {
+				"questions": []
+			},
+			"id": "4ebf32bb-0404-dfad-6b70-07a99e2d4771"
+		},
+		{
+			"templateName": "Connect",
+			"name": 6,
+			"data": {
+				"title": "Pair the Trip and Slip risks with their solutions.",
+				"pairs": [
+					{
+						"left": "Floor surface – wet, slippery or containing obstacles.",
+						"right": "Keeping walking areas clear of obstacles, and adding slip resistant mats to high risk areas"
+					},
+					{
+						"left": "Obstructed vision.",
+						"right": "Looking carefully where you are going, and not carrying oversized objects that limit vision"
+					},
+					{
+						"left": "Unstable walkways.",
+						"right": "Taking care to watch out for unstable and unsafe walkways\n"
+					}
+				],
+				"answer": {
+					"text": "It's easy to avoid Slips, Trips and Falls as long as you follow these simple steps.",
+					"correct": "That's correct!",
+					"incorrect": "Not quite...",
+					"takeaway": ""
+				},
+				"prompt": "Draw a line between each pair",
+				"challenge_configuration": {
+					"nb_stars": 2
+				}
+			},
+			"type": "connect",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"type": "text",
+							"category": "Pair the Trip and Slip risks with their solutions.",
+							"content": "Floor surface – wet, slippery or containing obstacles.",
+							"id": "bd1df827-c9b9-4ef5-a1d3-9fcfc88bea7e"
+						},
+						"answers": [
+							{
+								"content": "Keeping walking areas clear of obstacles, and adding slip resistant mats to high risk areas",
+								"correct": true,
+								"id": "a9e1ae10-74ba-416a-9a4e-0383c03afc10"
+							},
+							{
+								"content": "Looking carefully where you are going, and not carrying oversized objects that limit vision",
+								"correct": false,
+								"id": "fe8e642c-ce4b-473d-8a8d-fa4f005adcc2"
+							},
+							{
+								"content": "Taking care to watch out for unstable and unsafe walkways\n",
+								"correct": false,
+								"id": "8b7f298e-b447-47f7-8785-df017077346c"
+							}
+						]
+					},
+					{
+						"question": {
+							"type": "text",
+							"category": "Pair the Trip and Slip risks with their solutions.",
+							"content": "Obstructed vision.",
+							"id": "e29148e9-476e-41c0-81c7-ba4ab8845e16"
+						},
+						"answers": [
+							{
+								"content": "Looking carefully where you are going, and not carrying oversized objects that limit vision",
+								"correct": true,
+								"id": "ad09af9a-99ae-4603-98ef-b501ed3319be"
+							},
+							{
+								"content": "Keeping walking areas clear of obstacles, and adding slip resistant mats to high risk areas",
+								"correct": false,
+								"id": "930e62bc-67cf-4fdd-bfd7-bcaca73a8233"
+							},
+							{
+								"content": "Taking care to watch out for unstable and unsafe walkways\n",
+								"correct": false,
+								"id": "77c927c9-5212-48e8-b669-0a3be1e38330"
+							}
+						]
+					},
+					{
+						"question": {
+							"type": "text",
+							"category": "Pair the Trip and Slip risks with their solutions.",
+							"content": "Unstable walkways.",
+							"id": "99cf1a2d-7c45-4c47-bf81-701b4f22f39c"
+						},
+						"answers": [
+							{
+								"content": "Taking care to watch out for unstable and unsafe walkways\n",
+								"correct": true,
+								"id": "d4713388-6547-4da3-bbbd-57f612be384e"
+							},
+							{
+								"content": "Keeping walking areas clear of obstacles, and adding slip resistant mats to high risk areas",
+								"correct": false,
+								"id": "d4dd8547-3294-4da3-8d8a-8edf4ef034bb"
+							},
+							{
+								"content": "Looking carefully where you are going, and not carrying oversized objects that limit vision",
+								"correct": false,
+								"id": "6429e601-4b7d-4efd-8f73-46fbc8cc586a"
+							}
+						]
+					}
+				]
+			},
+			"id": "c4123f63-847b-a04a-403e-babdfce2a87b"
+		},
+		{
+			"templateName": "Exit Lesson",
+			"type": "exit",
+			"permanent": true,
+			"data": {
+				"buttonText": "Exit Lesson",
+				"content": "Nice work. You've reached the end of this lesson.",
+				"title": "**That's it!**"
+			},
+			"name": 7,
+			"metadata": {
+				"questions": []
+			},
+			"id": "4c6c8cc2-9c62-24d5-3c8c-564a60744195"
+		}
+	],
+	"title": "Slips, trips and falls",
+	"scorm": true,
+	"index": 0,
+	"id": "59d284334eb20800018fc062"
+}

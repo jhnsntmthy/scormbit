@@ -1,0 +1,565 @@
+{
+	"config": {
+		"indicator": true,
+		"pagination": false,
+		"pageNumbers": true,
+		"colors": {
+			"background": "#f7931e",
+			"text": "#fff"
+		},
+		"hasAnswerFeedback": true,
+		"disableInteractionSummary": true,
+		"disableLessonScore": false,
+		"minimumScore": 80,
+		"logo": "fit_content_assets/1460698404820.png",
+		"customCSS": "",
+		"background": "fit_content_assets/course.config.background-1481001040739.jpeg",
+		"incompleteOnFail": false
+	},
+	"isOnline": false,
+	"isAudio": true,
+	"slides": [
+		{
+			"templateDescription": "Display rich content and images.",
+			"templateName": "Text And Images",
+			"type": "text-and-images",
+			"data": {
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false
+				},
+				"prompt": "Scroll to see more",
+				"content": [
+					{
+						"image": "fit_content_assets/1460945990167.png",
+						"text": "Any Personal Protective Equipment (e.g. hardhats) must be used in the way you have been instructed to do so. \n\nSignage in the workplace also indicates what PPE must be worn."
+					},
+					{
+						"image": "fit_content_assets/1460958133817.png",
+						"text": "The use of PPE is important. In 2015, it was found that 89% of respondents to a workplace survey stated that they had participated in or seen misuse of PPE.\n\nFailure to abide by the signage is not only an offence under Occupation Health and Safety Legislation, but also puts you at risk of severe injury."
+					},
+					{
+						"text": "Continue to learn about the importance of using company-approved PPE by watching the following video on a comparison of effectiveness between approved safety glasses and normal sunglasses."
+					}
+				],
+				"title": "**Personal Protective Equipment**"
+			},
+			"name": 0,
+			"metadata": {
+				"questions": []
+			},
+			"id": "e15c4312-fbbc-a53b-669b-a60f90ac5f97"
+		},
+		{
+			"templateDescription": "Play a video",
+			"templateName": "Video Slide",
+			"name": 1,
+			"data": {
+				"fullscreen": false,
+				"autoprogress": true,
+				"autoplay": true,
+				"stream": false,
+				"url": "fit_content_assets/video.url-1481001404219.mp4",
+				"title": "Video"
+			},
+			"type": "video",
+			"metadata": {
+				"questions": []
+			},
+			"id": "84aff77e-f0a4-828e-2f38-bdfb50d7baa6"
+		},
+		{
+			"templateName": "Chat",
+			"name": 2,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": 2
+				},
+				"prompt": "Tap the best reply to the message",
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "Normal sunglasses (and other non-company approved PPE) **don't provide adequate protection** against workplace hazards.\n\nAgain, this puts you at **severe risk of injury** and is an offence under Occupation Health and Safety Legislation."
+				},
+				"answers": {
+					"incorrect": [
+						"You shouldn't wear any type of glasses; they obscure your vision.",
+						"That's fine, sunglasses will protect you just fine in case of any accidents."
+					],
+					"correct": "You shouldn't do that. Regular sunglasses don't provide the protection that safety glasses do."
+				},
+				"message": {
+					"responder": "What's your answer?",
+					"sender": "Coworker",
+					"content": "The safety glasses are annoying to wear. I'm just going to wear my regular sunglasses."
+				},
+				"title": ""
+			},
+			"type": "chat",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "1075acd9-aeca-44c9-b3f5-28797c3d5b1c",
+							"type": "text",
+							"content": "The safety glasses are annoying to wear. I'm just going to wear my regular sunglasses."
+						},
+						"answers": [
+							{
+								"id": "b970743d-71ec-4f25-a5b4-0be0d653ae62",
+								"type": "text",
+								"content": "You shouldn't do that. Regular sunglasses don't provide the protection that safety glasses do.",
+								"correct": true
+							},
+							{
+								"id": "0b64b185-5f47-4404-87e3-b5597de1e7d9",
+								"content": "You shouldn't wear any type of glasses; they obscure your vision.",
+								"correct": false,
+								"type": "text"
+							},
+							{
+								"id": "b9c4c2a9-dc0d-40e5-8c8a-cd8db5bc89e7",
+								"content": "That's fine, sunglasses will protect you just fine in case of any accidents.",
+								"correct": false,
+								"type": "text"
+							}
+						]
+					}
+				]
+			},
+			"id": "ad916da7-f782-0406-a2ac-ef03b20a7e0d"
+		},
+		{
+			"templateName": "Reveal",
+			"name": 3,
+			"data": {
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false
+				},
+				"prompt": "Tap to find out more",
+				"focus": false,
+				"content": [
+					{
+						"description": "<span class=\"text-normal\">Noise induced hearing loss is a common occupational injury and costs the industry around $35 million annually in compensation. </span>",
+						"title": "**The importance of noise control:**"
+					},
+					{
+						"description": "<span class=\"text-normal\">Excessive noise damages the delicate nerve cells in the inner ear that transmit sound messages to the brain. This damage occurs slowly over time and is painless but permanent - there is no cure.</span>",
+						"title": "**How excessive noise damage impacts you:**"
+					},
+					{
+						"description": "<span class=\"text-normal\">There are a number of ways to mitigate noise damage, however the most efficient method is always wearing your hearing protection equipment (plugs or&nbsp;muffs).</span>",
+						"title": "**Effectively reducing excessive noise damage:**"
+					}
+				],
+				"title": "**Noise Control**"
+			},
+			"type": "reveal",
+			"metadata": {
+				"questions": []
+			},
+			"id": "e891b6fb-81d5-39dd-6eae-32afbfa584d7"
+		},
+		{
+			"templateName": "Dial",
+			"name": 4,
+			"data": {
+				"title": "The noise exposure standard is how many decibels over an 8 hour period?",
+				"dial": {
+					"min": 40,
+					"max": 100,
+					"prefix": "",
+					"suffix": " dB",
+					"increment": 15,
+					"labels": 4,
+					"decimals": 0
+				},
+				"answer": {
+					"text": "The noise level in a workplace is dangerous if it exceeds the exposure standard, which refers to an average noise level of **85 decibels**  over an eight-hour period, with a maximum peak of 140 decibels.",
+					"value": 85,
+					"correct": "That's correct!",
+					"incorrect": "Not quite...",
+					"takeaway": ""
+				},
+				"prompt": "Drag to set the correct value",
+				"challenge_configuration": {
+					"nb_stars": 2
+				}
+			},
+			"type": "dial",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "74f8d776-d4e5-4128-b0ba-8e87c45685d0",
+							"type": "text",
+							"content": "The noise exposure standard is how many decibels over an 8 hour period?"
+						},
+						"answers": [
+							{
+								"id": "ca3f83d7-e1a2-420b-b0b8-bbe3d6255ca7",
+								"content": 85,
+								"correct": true,
+								"type": "number"
+							},
+							{
+								"id": "528edc3f-9cbc-4396-82dc-e58fcaeaaed5",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					}
+				]
+			},
+			"id": "131bbc26-4195-1fc9-b069-8bdc71101b5a"
+		},
+		{
+			"templateName": "Tap in Order",
+			"name": 5,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": 1
+				},
+				"prompt": "Tap in the correct order",
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "The correct order of loudest to quietest of the images is as follows:\n\n1. Jet engine (120 decibels)\n2. Mechanical Saw (110 decibels)\n3. Washing machine (85 decibels)\n4. Normal conversation (60 decibels)\n\nWorking with a mechanical saw is almost as loud as working next to a  jet engine."
+				},
+				"reject": false,
+				"list": [
+					"fit_content_assets/1460946311105.png",
+					"fit_content_assets/1460946984422.png",
+					"fit_content_assets/1460946997059.png",
+					"fit_content_assets/1460946417219.png"
+				],
+				"title": "Tap in order of loudest to quietest"
+			},
+			"type": "tap-in-order",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "e4dfe4d4-8e3a-48e1-b291-ecf985589830",
+							"type": "text",
+							"content": "Tap in order of loudest to quietest"
+						},
+						"answers": [
+							{
+								"id": "5a514f54-cdc8-48e6-b19f-891dcd94776c",
+								"correct": true,
+								"content": "fit_content_assets/1460946311105.png | ../../fit_content_assets/57147b24d0d0f6d329248616/1460946984422.png | ../../fit_content_assets/57147b24d0d0f6d329248616/1460946997059.png | ../../fit_content_assets/57147b24d0d0f6d329248616/1460946417219.png",
+								"type": "sequence"
+							},
+							{
+								"id": "62adf4c4-f527-4746-ab7c-d559eca88099",
+								"type": "incorrect-answer",
+								"correct": false
+							}
+						]
+					}
+				]
+			},
+			"id": "7bc7a108-837d-da03-a376-bcaed3bc96b0"
+		},
+		{
+			"templateName": "Image/Word Match",
+			"name": 6,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": 5
+				},
+				"game": {
+					"stars": {
+						"max": 10000,
+						"min": 1000
+					},
+					"timer": {
+						"limit": 15000
+					}
+				},
+				"images": [
+					{
+						"title": "Wear face mask",
+						"image": "fit_content_assets/1460947411569.png"
+					},
+					{
+						"title": "Eye protection must be worn",
+						"image": "fit_content_assets/1460947454486.png"
+					},
+					{
+						"title": "Wear face guard",
+						"image": "fit_content_assets/1460947473757.png"
+					},
+					{
+						"title": "Protective footwear must be worn",
+						"image": "fit_content_assets/1460947514050.png"
+					},
+					{
+						"title": "Use guard",
+						"image": "fit_content_assets/1460947875611.png"
+					},
+					{
+						"title": "Safety gloves must be worn",
+						"image": "fit_content_assets/1460947935829.png"
+					},
+					{
+						"title": "Hard hat area",
+						"image": "fit_content_assets/1460947890229.png"
+					},
+					{
+						"title": "Wear ear protectors",
+						"image": "fit_content_assets/1460947898919.png"
+					},
+					{
+						"title": "Respirators must be worn",
+						"image": "fit_content_assets/1460947906991.png"
+					},
+					{
+						"title": "Warning",
+						"image": "fit_content_assets/1460947915230.png"
+					}
+				],
+				"prompt": "Select the action that matches the signage",
+				"description": "Signage in the workplace indicates what PPE must be worn, which **must be complied with.**\n\nIn this game, you need to prove your signage knowledge by tapping the action which matches the signage&nbsp;displayed.\n\nTo earn all available stars, you need to earn **10,000 points.**",
+				"title": "**The Signage Shuffle&nbsp;game**"
+			},
+			"type": "game-image-word-match",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"type": "image",
+							"category": "**The Signage Shuffle&nbsp;game**",
+							"content": "fit_content_assets/1460947411569.png",
+							"id": "2980434c-89df-4cf5-8590-59d872dcf671"
+						},
+						"answers": [
+							{
+								"content": "Wear face mask",
+								"correct": true,
+								"id": "f718f688-2eee-454f-93d7-72687079c626"
+							},
+							{
+								"correct": false,
+								"id": "a19413d7-026a-40a8-9701-1e786dd7dd65"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "effc6d04-df66-46a1-ac43-b00a997b4adb",
+							"type": "image",
+							"category": "**The Signage Shuffle&nbsp;game**",
+							"content": "fit_content_assets/1460947454486.png"
+						},
+						"answers": [
+							{
+								"id": "0482b4a5-8be0-4506-858d-095e66b096df",
+								"content": "Eye protection must be worn",
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "53867ce7-e2f8-4dff-bd27-a32a286d4e51",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "da198ef1-3078-4f6b-812c-14c3e4de5a7e",
+							"type": "image",
+							"category": "**The Signage Shuffle&nbsp;game**",
+							"content": "fit_content_assets/1460947473757.png"
+						},
+						"answers": [
+							{
+								"id": "9258af05-1760-43bf-89c0-17f0bccb7146",
+								"content": "Wear face guard",
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "18f2f6ac-4f58-4c14-a0d4-f053d9b3ed39",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "424a34f8-44af-4286-aabd-e6291db1fd6b",
+							"type": "image",
+							"category": "**The Signage Shuffle&nbsp;game**",
+							"content": "fit_content_assets/1460947514050.png"
+						},
+						"answers": [
+							{
+								"id": "68dbfa07-a7e3-41e2-9559-54705e046df2",
+								"content": "Protective footwear must be worn",
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "fd30a426-aa5d-4242-94b8-a3cc9c7b283e",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "1c466dd2-c498-42d0-96b7-29961b8ffdc4",
+							"type": "image",
+							"category": "**The Signage Shuffle&nbsp;game**",
+							"content": "fit_content_assets/1460947875611.png"
+						},
+						"answers": [
+							{
+								"id": "1820a25a-c6a6-432b-bdd7-c71785f4f35d",
+								"content": "Use guard",
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "560b9a2e-bedd-40e8-9837-8dcbb83c2af3",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "12362032-2e39-41a0-84a1-69438c5fc1c8",
+							"type": "image",
+							"category": "**The Signage Shuffle&nbsp;game**",
+							"content": "fit_content_assets/1460947935829.png"
+						},
+						"answers": [
+							{
+								"id": "11691772-b597-4f00-9092-f7461723d747",
+								"content": "Safety gloves must be worn",
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "2195ae86-b3a1-4037-9801-6124d86b811d",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "3db00d6e-aa5e-4dc5-a41b-12eff852aff0",
+							"type": "image",
+							"category": "**The Signage Shuffle&nbsp;game**",
+							"content": "fit_content_assets/1460947890229.png"
+						},
+						"answers": [
+							{
+								"id": "0cfbf27a-9ad9-4ee0-aff2-c443e306ccee",
+								"content": "Hard hat area",
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "3a0d2638-ad71-4beb-9f45-78438583f99a",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "cd101a8d-a861-4c00-94ed-9962be07927f",
+							"type": "image",
+							"category": "**The Signage Shuffle&nbsp;game**",
+							"content": "fit_content_assets/1460947898919.png"
+						},
+						"answers": [
+							{
+								"id": "c9a20bbb-84b5-4722-999f-45fdc613d672",
+								"content": "Wear ear protectors",
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "0158562a-79f9-45e8-aecd-50d1eb026c1b",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "e68ed0a6-0cef-4300-b29a-444003f949de",
+							"type": "image",
+							"category": "**The Signage Shuffle&nbsp;game**",
+							"content": "fit_content_assets/1460947906991.png"
+						},
+						"answers": [
+							{
+								"id": "9c5fc91d-cd98-479a-a7e2-235173c902df",
+								"content": "Respirators must be worn",
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "cd384f40-9ed7-4981-a600-c920bbc7a0b5",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "65a87239-6a7e-48db-907e-947ccd3ab91f",
+							"type": "image",
+							"category": "**The Signage Shuffle&nbsp;game**",
+							"content": "fit_content_assets/1460947915230.png"
+						},
+						"answers": [
+							{
+								"id": "e64c6736-0009-4537-a9c7-9508c214bfd4",
+								"content": "Warning",
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "b08ffe57-edba-4f6d-80d0-d70e05d2babf",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					}
+				]
+			},
+			"id": "19e087b5-d4e4-f74d-8ba7-efcbb1a5b4de"
+		},
+		{
+			"templateName": "Exit Lesson",
+			"type": "exit",
+			"permanent": true,
+			"data": {
+				"buttonText": "Exit Lesson",
+				"content": "Nice work. You've reached the end of this lesson.",
+				"title": "**That's it!**"
+			},
+			"name": 7,
+			"metadata": {
+				"questions": []
+			},
+			"id": "9c43a88c-df25-2e44-b69c-2bc20b99ddc8"
+		}
+	],
+	"title": "Personal Protective Equipment",
+	"scorm": true,
+	"index": 0,
+	"id": "59d284334eb20800018fc063"
+}

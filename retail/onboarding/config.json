@@ -1,0 +1,781 @@
+{
+	"config": {
+		"indicator": true,
+		"pagination": false,
+		"pageNumbers": true,
+		"colors": {
+			"background": "#4E88D2",
+			"text": "#fff"
+		},
+		"hasAnswerFeedback": true,
+		"disableInteractionSummary": true,
+		"disableLessonScore": false,
+		"minimumScore": 0,
+		"logo": "fit_content_assets/1460941259097.png",
+		"customCSS": "",
+		"background": "fit_content_assets/1460941103804.jpg",
+		"direction": "ltr",
+		"incompleteOnFail": false
+	},
+	"isOnline": true,
+	"isAudio": true,
+	"slides": [
+		{
+			"templateName": "Image Gallery",
+			"name": 0,
+			"data": {
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false
+				},
+				"background": "",
+				"lightbox": false,
+				"prompt": "Swipe to see more images",
+				"images": [
+					{
+						"caption": "\"Hi there! My name's Annette. Welcome to the team!\"\n\n\"Together, we're going to cover some information about what you contribute to our company.\"",
+						"image": "fit_content_assets/image-gallery.images[0].image-1480998777491.jpeg"
+					}
+				],
+				"title": "Welcome."
+			},
+			"type": "image-gallery",
+			"metadata": {
+				"questions": []
+			},
+			"id": "3de7ee77-1229-4539-597d-b4c1898c93e2"
+		},
+		{
+			"templateDescription": "Tap the correct answer(s)",
+			"templateName": "Multiple Choice",
+			"name": 1,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1
+					}
+				},
+				"prompt": "Tap on the correct answer",
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "Our most important trait is fantastic customer service. \n\nAs a sales person, you can contribute most to our reputation for **genuine, personal service from experienced staff.**"
+				},
+				"answers": [
+					{
+						"correct": false,
+						"content": "Having all the best brands."
+					},
+					{
+						"correct": false,
+						"content": "Having a huge range."
+					},
+					{
+						"correct": false,
+						"content": "Having the cheapest products."
+					},
+					{
+						"correct": true,
+						"content": "Having genuine, personal service from experienced staff."
+					}
+				],
+				"randomize": true,
+				"selectable": 1,
+				"title": "Our company's most important trait is:"
+			},
+			"type": "multiple-choice-game",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "86791e3e-9c85-4acc-abbf-09d89e318817",
+							"content": "Our company's most important trait is:"
+						},
+						"answers": [
+							{
+								"id": "7716c09c-7f31-4de9-8de2-32090f58d3c0",
+								"type": "text",
+								"content": "Having all the best brands.",
+								"correct": false
+							},
+							{
+								"id": "3e65c005-0a98-457c-b39e-fae0c97f0866",
+								"type": "text",
+								"content": "Having a huge range.",
+								"correct": false
+							},
+							{
+								"id": "5e763ae5-9219-4416-9e13-12f363155094",
+								"type": "text",
+								"content": "Having the cheapest products.",
+								"correct": false
+							},
+							{
+								"id": "692e1f6c-f03c-4e96-bef4-60bc7ea34e4b",
+								"type": "text",
+								"content": "Having genuine, personal service from experienced staff.",
+								"correct": true
+							}
+						]
+					}
+				]
+			},
+			"id": "7cf34b19-3d1e-8b8d-9566-3c38592adc9d"
+		},
+		{
+			"templateName": "Word Construction",
+			"name": 2,
+			"data": {
+				"title": "In our business model, we focus on engaging with customers.",
+				"words": [
+					"focus",
+					"engaging"
+				],
+				"answer": {
+					"text": "We have an obsession with maintaining **engagement with customers,** it's what sets us apart from competitors.",
+					"correct": "That's correct!",
+					"incorrect": "Not quite...",
+					"takeaway": ""
+				},
+				"prompt": "Fill in the missing words",
+				"challenge_configuration": {
+					"nb_stars": null
+				}
+			},
+			"type": "construct",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "2b8ff3bf-8c5d-4158-bf58-a0f7666133da",
+							"type": "text",
+							"category": "In our business model, we focus on engaging with customers.",
+							"content": "focus"
+						},
+						"answers": [
+							{
+								"id": "0d553585-d810-4a8f-b7da-fee1087cc290",
+								"type": "text",
+								"content": "focus",
+								"correct": true
+							},
+							{
+								"id": "09a23881-de5e-4dcd-a8ff-607a25f2cfc1",
+								"type": "incorrect-answer",
+								"correct": false
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "ff33386d-6794-4019-8564-938f53e021fc",
+							"type": "text",
+							"category": "In our business model, we focus on engaging with customers.",
+							"content": "engaging"
+						},
+						"answers": [
+							{
+								"id": "858f1920-3f0c-4b77-b0f6-49359bbe87ec",
+								"type": "text",
+								"content": "engaging",
+								"correct": true
+							},
+							{
+								"id": "41de9aec-aa95-4469-90de-d666bb0acb6c",
+								"type": "incorrect-answer",
+								"correct": false
+							}
+						]
+					}
+				]
+			},
+			"id": "d1fda567-7607-ce83-aec2-5c2cd2fca9a3"
+		},
+		{
+			"templateName": "Strike-out",
+			"type": "strikeout",
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": null
+				},
+				"prompt": "Cross out the incorrect word",
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite... ",
+					"correct": "That's correct!",
+					"text": "We value you as a **product enthusiast;** it helps set you apart when talking to customers."
+				},
+				"words": [
+					{
+						"replaces": "engaged",
+						"incorrect": "distracted"
+					}
+				],
+				"subtitle": "*Cross out the incorrect word*",
+				"title": "Your skills and knowledge as a product enthusiast help you keep customers engaged during a sale."
+			},
+			"name": 3,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "f3749ffa-ea29-4604-96ea-538c0ac847d2",
+							"type": "text",
+							"category": "Your skills and knowledge as a product enthusiast help you keep customers distracted during a sale.",
+							"content": "distracted"
+						},
+						"answers": [
+							{
+								"id": "d6099653-9deb-4c2a-be9e-6d3da3d09c95",
+								"type": "text",
+								"content": "distracted",
+								"correct": true
+							},
+							{
+								"id": "b944e6d4-1e23-4151-a1de-2381e47c823f",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					}
+				]
+			},
+			"id": "b01595b1-e87f-c9c0-7076-ce3537b6ecef"
+		},
+		{
+			"templateName": "Drag to Match",
+			"name": 4,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": null
+				},
+				"prompt": "Drag the images to the benefits",
+				"answer": {
+					"takeaway": "",
+					"correct": "That's correct!",
+					"incorrect": "Not quite...",
+					"text": "There are various extrinsic rewards that come as part of your employment, such as developing sales skills. \n\nYou will learn various skills over the length of your time with us. \n\nFor today we will start with example content on **cross selling.**"
+				},
+				"list": [
+					{
+						"name": "Fixed pay and performance related pay",
+						"nameType": "text",
+						"image": "fit_content_assets/drag-to-match.list[0].image-1480998920146.jpeg",
+						"imageType": "image"
+					},
+					{
+						"name": "Learning, training and development",
+						"nameType": "text",
+						"image": "fit_content_assets/drag-to-match.list[1].image-1480998931251.jpeg",
+						"imageType": "image"
+					},
+					{
+						"name": "Work / life balance",
+						"nameType": "text",
+						"image": "fit_content_assets/drag-to-match.list[2].image-1480998926025.jpeg",
+						"imageType": "image"
+					}
+				],
+				"reject": false,
+				"title": "Connect up the types of extrinsic rewards you will receive while working at our company."
+			},
+			"type": "drag-to-match",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"type": "image",
+							"category": "Connect up the types of extrinsic rewards you will receive while working at our company.",
+							"content": "fit_content_assets/drag-to-match.list[0].image-1480998920146.jpeg",
+							"id": "62672541-503b-46a3-a790-b15ba491b750"
+						},
+						"answers": [
+							{
+								"content": "Fixed pay and performance related pay",
+								"correct": true,
+								"id": "a174c2e2-6f71-4f32-b5a7-3d6e850c128c"
+							},
+							{
+								"content": "Learning, training and development",
+								"correct": false,
+								"id": "350b0460-440a-423d-b145-17a36d631828"
+							},
+							{
+								"content": "Work / life balance",
+								"correct": false,
+								"id": "9360db91-2f5a-4b5a-a745-e72c71e36cf0"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "86703476-f26d-4e5f-ad5d-aa0e5fc0cafd",
+							"type": "image",
+							"category": "Connect up the types of extrinsic rewards you will receive while working at our company.",
+							"content": "fit_content_assets/drag-to-match.list[1].image-1480998931251.jpeg"
+						},
+						"answers": [
+							{
+								"id": "ea1f7bfa-41a6-4d55-8bfb-ed47dd418135",
+								"type": "text",
+								"content": "Learning, training and development",
+								"correct": true
+							},
+							{
+								"id": "3c06c528-f972-4d76-8154-da349e0865b0",
+								"type": "text",
+								"content": "Fixed pay and performance related pay",
+								"correct": false
+							},
+							{
+								"id": "cbb7068d-8b80-434c-85a8-b4bb6704d2ab",
+								"type": "text",
+								"content": "Work / life balance",
+								"correct": false
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "bb85d5b8-9d2b-47dc-9463-c765774dffb8",
+							"type": "image",
+							"category": "Connect up the types of extrinsic rewards you will receive while working at our company.",
+							"content": "fit_content_assets/drag-to-match.list[2].image-1480998926025.jpeg"
+						},
+						"answers": [
+							{
+								"id": "fc60077a-6927-4186-883c-b863f1b5485b",
+								"type": "text",
+								"content": "Work / life balance",
+								"correct": true
+							},
+							{
+								"id": "68befc6f-1cad-4ae0-9dc4-27dbaa51317c",
+								"type": "text",
+								"content": "Fixed pay and performance related pay",
+								"correct": false
+							},
+							{
+								"id": "a23d29be-5399-49b9-bd4c-75186a70c1e3",
+								"type": "text",
+								"content": "Learning, training and development",
+								"correct": false
+							}
+						]
+					}
+				]
+			},
+			"id": "3805b155-7fef-837b-440c-a954ccd00ff5"
+		},
+		{
+			"templateDescription": "Introduce your lesson",
+			"templateName": "Title Slide",
+			"name": 5,
+			"data": {
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false
+				},
+				"exitButton": false,
+				"buttonText": "OK, let's go!",
+				"subtitle": "What to cross sell, and best cross selling  practices.",
+				"title": "**Cross selling products**"
+			},
+			"type": "title",
+			"metadata": {
+				"questions": []
+			},
+			"id": "119f10b6-f70d-ba2e-d7bb-07926816bf89"
+		},
+		{
+			"templateDescription": "Display a video hosted on YouTube",
+			"templateName": "YouTube Video",
+			"type": "youtube-video-embed",
+			"data": {
+				"title": "",
+				"videoId": "QhCkAuXWAU8",
+				"autoplay": true
+			},
+			"name": 6,
+			"metadata": {
+				"questions": []
+			},
+			"id": "df803db1-258b-34b3-a13e-4b2307662680"
+		},
+		{
+			"templateDescription": "Display rich content and images.",
+			"templateName": "Text And Images",
+			"type": "text-and-images",
+			"data": {
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false
+				},
+				"prompt": "Scroll to see more",
+				"content": [
+					{
+						"image": "fit_content_assets/text-and-images.content[0].image-1480998977039.png",
+						"text": "Cross selling (not to be confused with up-selling) is the act of offering customers additional items that will go well with the one they are purchasing. \n"
+					},
+					{
+						"image": "fit_content_assets/text-and-images.content[1].image-1480998985234.png",
+						"text": "To cross sell, items that complement a product are suggested to go along with it. For example, as a savvy cross seller you might suggest that a customer purchasing a new laptop may also need a carrying case or wireless mouse."
+					},
+					{
+						"text": "This induces the buyer to consider purchasing additional items that complement their current purchase well."
+					}
+				],
+				"title": "What is Cross Selling?"
+			},
+			"name": 7,
+			"metadata": {
+				"questions": []
+			},
+			"id": "8d091a75-8313-8b71-f49d-2fd23b88d198"
+		},
+		{
+			"templateName": "Drag to Match",
+			"name": 8,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": 1
+				},
+				"prompt": "Drag the images to their labels",
+				"answer": {
+					"takeaway": "",
+					"correct": "That's correct!",
+					"incorrect": "Not quite...",
+					"text": "After a sale has been secured, you can try to **cross sell further items** which are related to the original product.\n\nIn this example, headphones are cross sold with an iPhone,  sound systems are cross sold with HD TVs and tuners are cross sold with guitars."
+				},
+				"list": [
+					{
+						"name": "iPhone",
+						"nameType": "text",
+						"image": "fit_content_assets/drag-to-match.list[0].image-1480999011272.png",
+						"imageType": "image"
+					},
+					{
+						"name": "HD TV",
+						"nameType": "text",
+						"image": "fit_content_assets/drag-to-match.list[1].image-1480999013218.png",
+						"imageType": "image"
+					},
+					{
+						"name": "Guitar",
+						"nameType": "text",
+						"image": "fit_content_assets/drag-to-match.list[2].image-1480999018676.png",
+						"imageType": "image"
+					}
+				],
+				"reject": false,
+				"title": "Drag the images to the products they should be cross sold with."
+			},
+			"type": "drag-to-match",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "77ae94ca-9b4d-4f4b-9add-9783f43ac71b",
+							"type": "image",
+							"category": "Drag the images to the products they should be cross sold with.",
+							"content": "fit_content_assets/drag-to-match.list[0].image-1480999011272.png"
+						},
+						"answers": [
+							{
+								"id": "20354fd8-e812-40cb-82bf-8220defd94fe",
+								"type": "text",
+								"content": "iPhone",
+								"correct": true
+							},
+							{
+								"id": "11052dcd-d4ba-4a90-abde-4f172b87d52a",
+								"type": "text",
+								"content": "HD TV",
+								"correct": false
+							},
+							{
+								"id": "7d341292-a012-412a-b326-81bf08ee7c30",
+								"type": "text",
+								"content": "Guitar",
+								"correct": false
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "bb87aa29-e399-481c-a8d2-3a00b0c48058",
+							"type": "image",
+							"category": "Drag the images to the products they should be cross sold with.",
+							"content": "fit_content_assets/drag-to-match.list[1].image-1480999013218.png"
+						},
+						"answers": [
+							{
+								"id": "591dcb48-1877-4e53-afd4-f7ffb9646112",
+								"type": "text",
+								"content": "HD TV",
+								"correct": true
+							},
+							{
+								"id": "4afafdf4-087e-4106-bb2b-d2aec6a74490",
+								"type": "text",
+								"content": "iPhone",
+								"correct": false
+							},
+							{
+								"id": "bd1cabd0-3206-4df0-a2bd-a89009764be1",
+								"type": "text",
+								"content": "Guitar",
+								"correct": false
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "3ed34a06-3860-4f99-883c-7a2d84ee52c1",
+							"type": "image",
+							"category": "Drag the images to the products they should be cross sold with.",
+							"content": "fit_content_assets/drag-to-match.list[2].image-1480999018676.png"
+						},
+						"answers": [
+							{
+								"id": "56916fa1-d267-4b5a-bdbe-970c143ced4c",
+								"type": "text",
+								"content": "Guitar",
+								"correct": true
+							},
+							{
+								"id": "602e101c-e713-40e8-8a52-1a1072ae34c6",
+								"type": "text",
+								"content": "iPhone",
+								"correct": false
+							},
+							{
+								"id": "a1af64e5-7997-4f83-88c3-ab7d2c7c5f45",
+								"type": "text",
+								"content": "HD TV",
+								"correct": false
+							}
+						]
+					}
+				]
+			},
+			"id": "afb0d749-a7b3-3c24-dd9b-ab25e4ddf40b"
+		},
+		{
+			"templateName": "Reorder",
+			"name": 9,
+			"data": {
+				"title": "Order the most common problems people have with cross selling.",
+				"list": [
+					"Coming across as too pushy.",
+					"Promoting a product the customer doesn't want.",
+					"Not knowing enough about the other products."
+				],
+				"answer": {
+					"text": "Customers most commonly complain about salespeople being **too pushy** when cross selling products.",
+					"correct": "That's correct!",
+					"incorrect": "Not quite...",
+					"takeaway": ""
+				},
+				"prompt": "Put the items in the correct order",
+				"challenge_configuration": {
+					"nb_stars": 1
+				}
+			},
+			"type": "reorder",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "177fa207-20ff-4442-aab7-8be2e51378cf",
+							"type": "text",
+							"content": "Order the most common problems people have with cross selling."
+						},
+						"answers": [
+							{
+								"id": "2e5bb034-66b5-4720-a64c-0896540649b0",
+								"correct": true,
+								"content": "Coming across as too pushy. | Promoting a product the customer doesn't want. | Not knowing enough about the other products.",
+								"type": "sequence"
+							},
+							{
+								"id": "b65bc268-3eae-4117-b191-3c67d4233b96",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					}
+				]
+			},
+			"id": "1db024c4-6c63-aea7-d393-4b364f69e9cf"
+		},
+		{
+			"templateName": "Carousel",
+			"name": 10,
+			"data": {
+				"title": "Select the best way to begin a cross sell.",
+				"answers": [
+					{
+						"content": "Ask for the customer's permission before describing the product.",
+						"correct": true
+					},
+					{
+						"content": "Start making the pitch immediately after the customer has decided to purchase the previous product.",
+						"correct": false
+					},
+					{
+						"content": "Wait for the customer to tell you about other products they are interested in.",
+						"correct": false
+					}
+				],
+				"randomize": true,
+				"answer": {
+					"text": "Asking for the customer's permission **primes them for the cross sell,** and makes them feel in control.",
+					"correct": "That's correct!",
+					"incorrect": "Not quite...",
+					"takeaway": ""
+				},
+				"prompt": "Swipe to select an answer",
+				"challenge_configuration": {
+					"nb_stars": 1
+				}
+			},
+			"type": "carousel",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "1b1f98f6-f10f-4d6b-b5f3-7ceb4f20744c",
+							"type": "text",
+							"content": "Select the best way to begin a cross sell."
+						},
+						"answers": [
+							{
+								"id": "36945bd2-553f-4fe9-ba8c-f060471ae889",
+								"type": "text",
+								"content": "Ask for the customer's permission before describing the product.",
+								"correct": true
+							},
+							{
+								"id": "ec49aee0-1881-4d85-8a01-f47badaefd02",
+								"type": "text",
+								"content": "Start making the pitch immediately after the customer has decided to purchase the previous product.",
+								"correct": false
+							},
+							{
+								"id": "11c7ea03-60d2-4413-94da-9e2c56bb6b03",
+								"type": "text",
+								"content": "Wait for the customer to tell you about other products they are interested in.",
+								"correct": false
+							}
+						]
+					}
+				]
+			},
+			"id": "26ca271f-53fe-95e7-aa5d-cb3370c85dd7"
+		},
+		{
+			"templateName": "Chat",
+			"name": 11,
+			"data": {
+				"title": "Select the best way to prime a cross sell.",
+				"message": {
+					"content": "I'd like to buy this Samsung TV.",
+					"sender": "Customer",
+					"responder": "You"
+				},
+				"answers": {
+					"correct": "Fantastic! That TV sounds amazing paired with our home theatre systems. Can I tell you about them?",
+					"incorrect": [
+						"Fantastic! Would you like to hear about the home theatre systems available?"
+					]
+				},
+				"answer": {
+					"text": "When you talk about the **benefits of the product** while asking permission to talk about it, customers are more likely to accept the offer.",
+					"correct": "That's correct!",
+					"incorrect": "Not quite...",
+					"takeaway": ""
+				},
+				"prompt": "Tap the best reply to the message",
+				"challenge_configuration": {
+					"nb_stars": 1
+				}
+			},
+			"type": "chat",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "5def580d-611b-4eeb-9aa6-600b43300595",
+							"type": "text",
+							"content": "I'd like to buy this Samsung TV."
+						},
+						"answers": [
+							{
+								"id": "0c71f9dd-fa07-4288-9107-cd03a12f1abe",
+								"type": "text",
+								"content": "Fantastic! That TV sounds amazing paired with our home theatre systems. Can I tell you about them?",
+								"correct": true
+							},
+							{
+								"id": "def649df-9882-46a5-970e-55e8756d3189",
+								"content": "Fantastic! Would you like to hear about the home theatre systems available?",
+								"correct": false,
+								"type": "text"
+							}
+						]
+					}
+				]
+			},
+			"id": "3b6956ef-c50a-7e36-3569-cbd76f13243e"
+		},
+		{
+			"templateName": "Image Gallery",
+			"type": "image-gallery",
+			"data": {
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false
+				},
+				"background": "",
+				"lightbox": false,
+				"prompt": "Swipe to see more images",
+				"images": [
+					{
+						"caption": "Nice one. You made it through another Ed lesson! Keep on going to build and develop your skills within our company. ",
+						"image": "fit_content_assets/image-gallery.images[0].image-1480999046478.png"
+					}
+				],
+				"title": ""
+			},
+			"name": 12,
+			"metadata": {
+				"questions": []
+			},
+			"id": "a533f7e2-7c8e-9d36-7378-98d0a924af82"
+		},
+		{
+			"templateName": "Exit Lesson",
+			"type": "exit",
+			"permanent": true,
+			"data": {
+				"buttonText": "Exit Lesson",
+				"content": "Nice work. You've completed this lesson.",
+				"title": "**That's it!**"
+			},
+			"name": 13,
+			"metadata": {
+				"questions": []
+			},
+			"id": "24642b41-65f1-bf74-17e3-8a362dc6f51a"
+		}
+	],
+	"title": "Introduction",
+	"scorm": true,
+	"index": 0,
+	"id": "59d284334eb20800018fc066"
+}
