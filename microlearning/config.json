@@ -1,0 +1,644 @@
+{
+	"config": {
+		"indicator": true,
+		"pagination": false,
+		"pageNumbers": true,
+		"colors": {
+			"background": "#46B4E9",
+			"text": "#fff"
+		},
+		"hasAnswerFeedback": true,
+		"disableInteractionSummary": true,
+		"disableLessonScore": false,
+		"minimumScore": 0,
+		"hasScormExitButton": false,
+		"customCSS": "",
+		"direction": "ltr"
+	},
+	"isOnline": false,
+	"isAudio": false,
+	"slides": [
+		{
+			"templateDescription": "Introduce your lesson",
+			"templateName": "Title Slide",
+			"metadata": {
+				"questions": []
+			},
+			"displayIndex": 1,
+			"type": "title",
+			"data": {
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				},
+				"exitButton": false,
+				"buttonText": "Ok, let's go!",
+				"subtitle": "Why your eLearning needs to be mobile ready!",
+				"title": "The Power of Mobile Learning"
+			},
+			"name": 0,
+			"id": "e2545d86-11d8-d48b-5aa2-78156ff53a4f"
+		},
+		{
+			"type": "multiple-choice-game",
+			"data": {
+				"titleType": "text",
+				"title": "One of the most powerful strengths that mobile learning brings you is accessibility. How does accessibility help you learn?",
+				"subtitle": "",
+				"selectable": 5,
+				"randomize": true,
+				"answers": [
+					{
+						"content": "Learning is anytime",
+						"correct": true
+					},
+					{
+						"content": "Learning is anywhere",
+						"correct": true
+					},
+					{
+						"content": "Learning is when you need it",
+						"correct": true
+					}
+				],
+				"answer": {
+					"text": "That's right! Because you can access mobile learning anytime, anywhere - at the time when you need the information - you are more likely to remember the information. But because we forget ...",
+					"correct": "That's correct!",
+					"incorrect": "Not quite...",
+					"takeaway": ""
+				},
+				"prompt": "Select the correct answers",
+				"game": {
+					"timer": {
+						"limit": 10000
+					}
+				},
+				"challenge_configuration": {
+					"weighting": 1,
+					"nb_stars": null
+				}
+			},
+			"templateName": "Multiple Choice",
+			"metadata": {
+				"questions": [
+					{
+						"answers": [
+							{
+								"correct": true,
+								"content": "Learning is anytime",
+								"type": "text",
+								"id": "f37709af-c80d-4d6a-9144-5f55cbf28a06"
+							},
+							{
+								"correct": true,
+								"content": "Learning is anywhere",
+								"type": "text",
+								"id": "19a8fad7-d8d7-4521-bad0-389db5ffc390"
+							},
+							{
+								"correct": true,
+								"content": "Learning is when you need it",
+								"type": "text",
+								"id": "183f78e2-5214-4ce9-aa77-610b26e7cd5c"
+							}
+						],
+						"question": {
+							"content": "One of the most powerful strengths that mobile learning brings you is accessibility. How does accessibility help you learn?",
+							"type": "text",
+							"id": "f23885b7-17a0-4874-bad0-47a627726781"
+						}
+					}
+				]
+			},
+			"id": "328937c1-1b49-026b-6cc5-7deb85409912",
+			"name": 1,
+			"displayIndex": 2,
+			"templateDescription": "Select the correct answer(s)"
+		},
+		{
+			"displayIndex": 3,
+			"name": 2,
+			"id": "14e6e6a4-fe40-c47e-c13e-8d4d929558eb",
+			"metadata": {
+				"questions": [
+					{
+						"answers": [
+							{
+								"type": "number",
+								"correct": true,
+								"content": 50,
+								"id": "850bb7c9-e3a5-4527-8eab-3a171e18bf53"
+							},
+							{
+								"type": "incorrect-answer",
+								"correct": false,
+								"id": "c646364f-a9e8-4f8f-9f38-450cab2406f1"
+							}
+						],
+						"question": {
+							"content": "How much do you forget after one day?",
+							"type": "text",
+							"id": "010d3b55-640f-4025-93b7-7966a4400a8a"
+						}
+					}
+				]
+			},
+			"templateName": "Pie Chart",
+			"data": {
+				"title": "How much do you forget after one day?",
+				"pie": {
+					"min": 0,
+					"max": 100,
+					"prefix": "",
+					"suffix": "%",
+					"increment": 1
+				},
+				"answer": {
+					"text": "Research shows that people forget 50% of what they've learned after just 1 day. Continue on to see how much you forget in a month ...\n",
+					"value": 50,
+					"correct": "That's correct!",
+					"incorrect": "Not quite...",
+					"takeaway": "We forget fast!"
+				},
+				"prompt": "Drag to set the correct value",
+				"game": {
+					"timer": {
+						"limit": -1
+					}
+				},
+				"challenge_configuration": {
+					"weighting": 1,
+					"nb_stars": null
+				}
+			},
+			"type": "pie-chart"
+		},
+		{
+			"displayIndex": 4,
+			"name": 3,
+			"id": "d7f70ec2-702e-2f23-930e-d32adcc00636",
+			"metadata": {
+				"questions": [
+					{
+						"answers": [
+							{
+								"type": "number",
+								"correct": true,
+								"content": 90,
+								"id": "43acc80d-75cc-4058-ab29-53de3843915f"
+							},
+							{
+								"type": "incorrect-answer",
+								"correct": false,
+								"id": "b3e5c791-4d15-45e7-8207-f77c2ccd4e7a"
+							}
+						],
+						"question": {
+							"content": "How much do we forget in a month?",
+							"type": "text",
+							"id": "47be72da-a17c-40ab-836a-c654b9aa6ea1"
+						}
+					}
+				]
+			},
+			"templateName": "Dial",
+			"data": {
+				"title": "How much do we forget in a month?",
+				"dial": {
+					"min": 0,
+					"max": 100,
+					"prefix": "",
+					"suffix": "",
+					"increment": 1,
+					"labels": 4,
+					"decimals": 0
+				},
+				"answer": {
+					"text": "Research shows that we forget 90% of what we've learned in a month. \n\nWhat can help us remember more of what we we've learned? Reminders on what we've learned delivered right to us on our phones! \n\nContinue on to learn more about reminders ...\n",
+					"value": 90,
+					"correct": "That's correct!",
+					"incorrect": "Not quite...",
+					"takeaway": "Reminders can help us retain what we have learned."
+				},
+				"prompt": "Drag to set the correct value",
+				"game": {
+					"timer": {
+						"limit": -1
+					}
+				},
+				"challenge_configuration": {
+					"weighting": 1,
+					"nb_stars": null
+				}
+			},
+			"type": "dial"
+		},
+		{
+			"type": "chat",
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"game": {
+					"timer": {
+						"limit": -1
+					}
+				},
+				"prompt": "Select the correct answer",
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "Reminders can be all sorts of things - a quick game, a short video, a few fun questions. For mobile learning, these reminders and reinforcements are quick experiences targeting one concept or skill - focused bits of information. \n\nThe important thing is to just get your brain actively trying to recall the information so that the knowledge becomes more established. \n\nContinue on to learn more about why active learning is important!\n"
+				},
+				"answers": {
+					"incorrect": [
+						"Yes! Fun is distracting - boring is best.",
+						"I have no idea!"
+					],
+					"correct": "No! They can be fun and interactive."
+				},
+				"message": {
+					"responder": "What's your answer?",
+					"sender": "What do you think?",
+					"content": "To be effective learning tools, reminders need to be boring blocks of text."
+				},
+				"title": "To bore or not to bore? That is the question!"
+			},
+			"templateName": "Chat",
+			"metadata": {
+				"questions": [
+					{
+						"answers": [
+							{
+								"correct": true,
+								"content": "No! They can be fun and interactive.",
+								"type": "text",
+								"id": "b46e29ec-82f5-41c7-8bef-2328bc431f14"
+							},
+							{
+								"type": "text",
+								"correct": false,
+								"content": "Yes! Fun is distracting - boring is best.",
+								"id": "f353a34f-db79-43b3-ae93-2d5625682ef8"
+							},
+							{
+								"type": "text",
+								"correct": false,
+								"content": "I have no idea!",
+								"id": "14bd4d26-e8b5-47d8-848d-9c734a6f22ab"
+							}
+						],
+						"question": {
+							"content": "To be effective learning tools, reminders need to be boring blocks of text.",
+							"type": "text",
+							"id": "cdf23d16-9a09-46bc-ab8a-a9f4712e320a"
+						}
+					}
+				]
+			},
+			"id": "6a6e96f3-cafd-23b7-5ac5-ff4a64286099",
+			"name": 4,
+			"displayIndex": 5
+		},
+		{
+			"templateDescription": "Flip cards to reveal more details",
+			"displayIndex": 6,
+			"name": 5,
+			"id": "cff07509-3fc3-7103-2aa5-4ba84e9d8170",
+			"metadata": {
+				"questions": []
+			},
+			"templateName": "Reveal",
+			"data": {
+				"title": "Get active! Why active learning is better than passive learning.",
+				"content": [
+					{
+						"title": "Active learning",
+						"description": "Pre-questioning, or trying to answer questions **BEFORE** being given the information is an example of active learning, which causes us to learn better and remember longer. \n\nOther examples of active learning include self-testing and working your brain by trying to use just hints to recall the information.\n\nMobile learning is great for active learning as the focused questions with feedback or content distilled down to a single concept or skill will help you retain and recall the information when you need it! \n"
+					},
+					{
+						"title": "Passive learning",
+						"description": "Memorizing facts for a test is an example of passive learning - the kind of learning we quickly forget. \n\nLarge volumes of material like a text book is hard to passively absorb. The focused questions with feedback or content distilled down to a single concept or skill that you find with mobile learning helps us retain and recall the information better when we need it!\n"
+					}
+				],
+				"focus": true,
+				"prompt": "Select each item to find out more",
+				"narration": {
+					"audio_file": null,
+					"can_not_be_skipped": false,
+					"progress_on_completion": false
+				}
+			},
+			"type": "reveal"
+		},
+		{
+			"type": "slider",
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"game": {
+					"timer": {
+						"limit": -1
+					}
+				},
+				"prompt": "Slide to the correct value",
+				"answer": {
+					"takeaway": "Giving learners the mobile experience they are expecting + knowing that mobile means better learning = Win-Win!",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"value": 75,
+					"text": "From our learner survey, we found that 75% of learners are already accessing learning content on their mobile devices and they expect content to be mobile ready; what's more, they enjoyed the mobile learning experience. \n\nGiving learners what they want + knowing that mobile means better learning = Win-Win! \n\nContinue on to learn about the 80/20 rule of informal learning and how mobile learning fits into informal learning!"
+				},
+				"slider": {
+					"decimals": 0,
+					"labels": 4,
+					"increment": 1,
+					"suffix": "%",
+					"prefix": "",
+					"max": 100,
+					"min": 0
+				},
+				"title": "What percentage of learners are already using mobile devices to access learning content?"
+			},
+			"templateName": "Slider",
+			"metadata": {
+				"questions": [
+					{
+						"answers": [
+							{
+								"type": "number",
+								"correct": true,
+								"content": 75,
+								"id": "f46aeb24-279b-4174-84e7-d4271e61bfac"
+							},
+							{
+								"type": "incorrect-answer",
+								"correct": false,
+								"id": "4cea3005-9cf1-4383-bf0c-4261d2513909"
+							}
+						],
+						"question": {
+							"content": "What percentage of learners are already using mobile devices to access learning content?",
+							"type": "text",
+							"id": "fa40c516-c524-4765-a2aa-4dbacea26593"
+						}
+					}
+				]
+			},
+			"id": "b8ca9359-6d7e-f020-20da-3ced70ae378a",
+			"name": 6,
+			"displayIndex": 7
+		},
+		{
+			"displayIndex": 8,
+			"name": 7,
+			"id": "1ed62214-14ad-2b6c-050e-bdc0ca0ac0d6",
+			"metadata": {
+				"questions": [
+					{
+						"answers": [
+							{
+								"id": "d91a51b5-8e7f-4396-bd97-8146385befbc",
+								"correct": true,
+								"content": "80%"
+							},
+							{
+								"id": "b6af03a0-5eb0-4055-9b73-c5d102122717",
+								"correct": false,
+								"content": "60%"
+							},
+							{
+								"id": "512ff332-7783-4a16-a951-a8e5d6a8dd52",
+								"correct": false,
+								"content": "40%"
+							},
+							{
+								"id": "c835f861-2d61-4893-baf3-4a2ded816563",
+								"correct": false,
+								"content": "20%"
+							}
+						],
+						"question": {
+							"id": "5bef3a7b-5d2b-4294-af4e-818ecc943e2e",
+							"content": "How much of learning takes place in informal situations outside a classroom?",
+							"type": "text"
+						}
+					}
+				]
+			},
+			"templateName": "Circle the Answer",
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"game": {
+					"timer": {
+						"limit": -1
+					}
+				},
+				"prompt": "Circle the correct answer",
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "Yes! 80% of our learning happens informally between colleagues, friends, families, and communities as we problem-solve together. Only 20% of learning occurs in a formal setting like a classroom. \n\nMobile learning taps right into this informal learning network with its accessibility and social aspects. The on-demand nature of mobile learning and the ability to share knowledge means that we are actively participating in our  own learning and expanding where that knowledge takes us."
+				},
+				"answers": {
+					"incorrect": [
+						"60%",
+						"40%",
+						"20%"
+					],
+					"correct": "80%"
+				},
+				"title": "How much of learning takes place in informal situations outside a classroom?",
+				"titleType": "text"
+			},
+			"type": "circle-the-answer"
+		},
+		{
+			"type": "game-true-or-false",
+			"data": {
+				"title": "Based on what you have learned, mobile learning ...",
+				"description": "Which of these statements is true? Swipe the incorrect statements to the left and the true statements to the right.",
+				"prompt": "Swipe to answer",
+				"statements": [
+					{
+						"text": "is accessible when you need it",
+						"true": true
+					},
+					{
+						"text": "can help reduce the 90% forgetting rate in a month using reminders",
+						"true": true
+					},
+					{
+						"text": "allows for active learning techniques such as pre-questioning",
+						"true": true
+					},
+					{
+						"text": "augments the 80% informal-to-20% formal learning occurring (how we are already learning most of what we know)",
+						"true": true
+					},
+					{
+						"text": "is already being used by a significant amount of students who enjoy the mobile learning experience",
+						"true": true
+					}
+				],
+				"falseText": "False",
+				"trueText": "True",
+				"game": {
+					"timer": {
+						"limit": 20000
+					},
+					"stars": {
+						"min": 1000,
+						"max": 10000
+					}
+				},
+				"challenge_configuration": {
+					"weighting": 1,
+					"nb_stars": null
+				}
+			},
+			"templateName": "True or False",
+			"metadata": {
+				"questions": [
+					{
+						"answers": [
+							{
+								"type": "text",
+								"correct": true,
+								"content": true,
+								"id": "0c750bcc-6483-45e3-bcff-dbb6fd876fdf"
+							},
+							{
+								"type": "text",
+								"correct": false,
+								"content": false,
+								"id": "2ea21aeb-5c4f-4e3b-a3c2-2f940b206886"
+							}
+						],
+						"question": {
+							"content": "is accessible when you need it",
+							"type": "text",
+							"id": "7540ccd0-b588-43e7-9c76-ae01d2ebfe33"
+						}
+					},
+					{
+						"answers": [
+							{
+								"type": "text",
+								"correct": true,
+								"content": true,
+								"id": "a570a406-b5ae-438b-9b45-dc03636e0b97"
+							},
+							{
+								"type": "text",
+								"correct": false,
+								"content": false,
+								"id": "23286a00-76cb-42ea-abd4-b365eef1804d"
+							}
+						],
+						"question": {
+							"content": "can help reduce the 90% forgetting rate in a month using reminders",
+							"type": "text",
+							"id": "83c5b15e-23ca-4cd1-bfa7-bed5542d41f6"
+						}
+					},
+					{
+						"answers": [
+							{
+								"type": "text",
+								"correct": true,
+								"content": true,
+								"id": "87f733c9-8fb9-4fcd-982f-94af62ef5985"
+							},
+							{
+								"type": "text",
+								"correct": false,
+								"content": false,
+								"id": "51fa6a92-41f5-4937-aecf-c2391a676f18"
+							}
+						],
+						"question": {
+							"content": "allows for active learning techniques such as pre-questioning",
+							"type": "text",
+							"id": "dbcbd95f-cc38-4478-8bb9-b99bd19b11eb"
+						}
+					},
+					{
+						"answers": [
+							{
+								"type": "text",
+								"correct": true,
+								"content": true,
+								"id": "58f64067-2932-4493-9af0-8c8fd871c2e9"
+							},
+							{
+								"type": "text",
+								"correct": false,
+								"content": false,
+								"id": "87ca3d78-f48c-40ae-a4d8-0278b77ebb08"
+							}
+						],
+						"question": {
+							"content": "augments the 80% informal-to-20% formal learning occurring (how we are already learning most of what we know)",
+							"type": "text",
+							"id": "6ecfaeb7-fd37-4ba2-bce5-dc74b367489c"
+						}
+					},
+					{
+						"answers": [
+							{
+								"type": "text",
+								"correct": true,
+								"content": true,
+								"id": "67f020a0-c23e-4413-b424-6140951faa43"
+							},
+							{
+								"type": "text",
+								"correct": false,
+								"content": false,
+								"id": "3f07fdb4-ead1-4eb8-b935-d6330166029d"
+							}
+						],
+						"question": {
+							"content": "is already being used by a significant amount of students who enjoy the mobile learning experience",
+							"type": "text",
+							"id": "f5c807b3-1577-4c4f-9e02-7b9036973c44"
+						}
+					}
+				]
+			},
+			"id": "f617c3ea-95b4-4db1-4682-842823675af3",
+			"name": 8,
+			"displayIndex": 9
+		},
+		{
+			"metadata": {
+				"questions": []
+			},
+			"templateName": "Exit Lesson",
+			"displayIndex": 10,
+			"type": "exit",
+			"permanent": true,
+			"data": {
+				"buttonText": "Exit Lesson",
+				"content": "Nice work! Remember, giving learners problems to actively solve such as pre-questions and offering reminders in the accessible, on-demand mobile environment will increase retention rates and student success!",
+				"title": "That's it! You have now completed a mobile learning experience. "
+			},
+			"name": 9,
+			"id": "c6bfb01c-8ab5-4839-c4a7-3da070da2aa0"
+		}
+	],
+	"title": "24/7",
+	"scorm": true,
+	"index": 0,
+	"id": "5a47eac2c514f00001480947"
+}
