@@ -1,0 +1,898 @@
+{
+	"config": {
+		"indicator": true,
+		"pagination": false,
+		"pageNumbers": true,
+		"colors": {
+			"background": "#f7931e",
+			"text": "#fff"
+		},
+		"hasAnswerFeedback": true,
+		"disableInteractionSummary": true,
+		"disableLessonScore": false,
+		"minimumScore": 0,
+		"logo": "fit_content_assets/1460698404820.png",
+		"customCSS": "",
+		"background": "fit_content_assets/course.config.background-1481001040739.jpeg",
+		"incompleteOnFail": false
+	},
+	"isOnline": false,
+	"isAudio": false,
+	"slides": [
+		{
+			"templateDescription": "Introduce your lesson",
+			"templateName": "Title Slide",
+			"name": 0,
+			"data": {
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false
+				},
+				"exitButton": false,
+				"buttonText": "OK, let's go!",
+				"subtitle": "Health and Safety at work is everybody's responsibility.",
+				"title": "**Introduction to Health and Safety in the workplace**"
+			},
+			"type": "title",
+			"metadata": {
+				"questions": []
+			},
+			"id": "df64662a-9f81-eb89-d6bf-c0dece78bc9f"
+		},
+		{
+			"templateDescription": "Display rich content and images.",
+			"templateName": "Text And Images",
+			"name": 1,
+			"data": {
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false
+				},
+				"prompt": "Scroll to see more",
+				"content": [
+					{
+						"image": "fit_content_assets/text-and-images.content[0].image-1481000808226.png",
+						"text": "This module has been designed to provide you with an overview of the general legal and safety requirements for the workplace, help you identify hazards, assess risks and implement controls to reduce the likelihood of you or others being injured at work."
+					},
+					{
+						"text": "Continue for an overview of the module and its contents."
+					}
+				],
+				"title": "About this course"
+			},
+			"type": "text-and-images",
+			"metadata": {
+				"questions": []
+			},
+			"id": "bf1fcd36-25c8-2465-4bcb-1d3d531018eb"
+		},
+		{
+			"templateDescription": "Display a sequence of text.",
+			"templateName": "Text Sequence",
+			"name": 2,
+			"data": {
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false
+				},
+				"label": "Step",
+				"prompt": "Tap to read more",
+				"content": [
+					"**1)** Housekeeping",
+					"**2)** Slips, Trips and Falls",
+					"**3)** Personal Protective Equipment",
+					"**4)** Safe lifting"
+				],
+				"title": "**Module overview**\n<p style=\"font-size:0.73em;\">*Tap to view the topics we will be covering over the length of this course.*</p>"
+			},
+			"type": "text-sequence",
+			"metadata": {
+				"questions": []
+			},
+			"id": "0dd4eff3-9037-43a5-5693-77c6b2e59d59"
+		},
+		{
+			"templateName": "Image Gallery",
+			"name": 3,
+			"data": {
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false
+				},
+				"background": "",
+				"lightbox": false,
+				"prompt": "Swipe to see more images",
+				"images": [
+					{
+						"caption": "# **Heads up!**\nThis course is **scored.** You will need to earn **80% of the available stars** in each lesson to&nbsp;pass.\n\nBe aware the ability to **go backwards** and **restart the lesson part way through** are disabled in these scored&nbsp;lessons!",
+						"image": "fit_content_assets/image-gallery.images[0].image-1480999474277.png"
+					}
+				],
+				"title": "Scoring"
+			},
+			"type": "image-gallery",
+			"metadata": {
+				"questions": []
+			},
+			"id": "23756590-0da1-fd1f-4111-e0f19f7479ba"
+		},
+		{
+			"templateDescription": "Display rich content and images.",
+			"templateName": "Text And Images",
+			"name": 4,
+			"data": {
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false
+				},
+				"prompt": "Scroll to see more",
+				"content": [
+					{
+						"image": "fit_content_assets/text-and-images.content[0].image-1481000831385.jpeg",
+						"text": "## *Why should we pay attention to housekeeping at work?*\n\nEffective housekeeping can eliminate some workplace hazards and help get a job done safely and properly. \n\nPoor housekeeping can frequently contribute to accidents by hiding hazards that cause injuries. If the sight of paper, debris, clutter and spills is accepted as normal, then other more serious health and safety hazards may be taken for granted."
+					},
+					{
+						"image": "fit_content_assets/text-and-images.content[1].image-1481000838412.jpeg",
+						"text": "## *What is good housekeeping?*\n\nHousekeeping is not just cleanliness. It includes keeping work areas neat and orderly; maintaining halls and floors free of slip and trip hazards; and removing of waste materials (e.g., paper, cardboard) and other fire hazards from work areas.\n\nIt also requires paying attention to important details such as the layout of the whole workplace, aisle marking, the adequacy of storage facilities, and maintenance. Good housekeeping is also a basic part of accident and fire prevention."
+					},
+					{
+						"text": "## *When should housekeeping be done?*\n\nEffective housekeeping is an ongoing operation: it is not a hit-and-miss cleanup done occasionally. Periodic \"panic\" cleanups are costly and ineffective in reducing accidents."
+					}
+				],
+				"title": "**Housekeeping: A basic&nbsp;guide**"
+			},
+			"type": "text-and-images",
+			"metadata": {
+				"questions": []
+			},
+			"id": "55ca3a49-18f8-9a99-4a9c-e19060668de2"
+		},
+		{
+			"templateDescription": "Tap the correct answer(s)",
+			"templateName": "Multiple Choice",
+			"name": 5,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": 1
+				},
+				"game": {
+					"timer": {
+						"limit": 10000
+					}
+				},
+				"prompt": "Tap the correct answer",
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "Good housekeeping means ensuring a high level of order and safety in many different aspects of the workplace, and is **more than just tidying up.**"
+				},
+				"answers": [
+					{
+						"correct": true,
+						"content": "True"
+					},
+					{
+						"correct": false,
+						"content": "False"
+					}
+				],
+				"randomize": false,
+				"selectable": 1,
+				"title": "Good housekeeping means more than just tidying up your workstation.",
+				"titleType": ""
+			},
+			"type": "multiple-choice-game",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "e15304ed-d2f4-4a0a-8bed-0e533d7443ff",
+							"type": "",
+							"content": "Good housekeeping means more than just tidying up your workstation."
+						},
+						"answers": [
+							{
+								"id": "2657d084-4e03-4645-84c8-f2a64de7e6c7",
+								"type": "text",
+								"content": "True",
+								"correct": true
+							},
+							{
+								"id": "590f550c-4f0c-41a7-97c7-e2ba5f2da1fa",
+								"type": "text",
+								"content": "False",
+								"correct": false
+							}
+						]
+					}
+				]
+			},
+			"id": "dda16836-c82d-6e01-c180-43436e06fd15"
+		},
+		{
+			"templateName": "Missing Word",
+			"name": 6,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": 1
+				},
+				"prompt": "Drag in the correct word(s)",
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "Good housekeeping is **everyone's** responsibility. \n\nIf you spot an example of bad housekeeping and can't immediately rectify the situation, you should **contact your supervisor.**"
+				},
+				"words": [
+					"everyone.",
+					"the cleaner."
+				],
+				"title": "Good housekeeping is the responsibility of everyone."
+			},
+			"type": "missing-word",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "145426fb-d197-47e2-90f5-7a9991e75bef",
+							"type": "text",
+							"category": "Good housekeeping is the responsibility of everyone.",
+							"content": "everyone."
+						},
+						"answers": [
+							{
+								"id": "555b73f3-9c21-4d0e-be8a-b1105230c4ec",
+								"type": "text",
+								"content": "everyone.",
+								"correct": true
+							},
+							{
+								"id": "03fedece-5488-477c-861c-da668ef0bd19",
+								"content": "the cleaner.",
+								"correct": false,
+								"type": "text"
+							}
+						]
+					}
+				]
+			},
+			"id": "9b4a3b6c-3b21-7e87-5846-34e3e3d3a536"
+		},
+		{
+			"templateDescription": "Display a list of bullet points",
+			"templateName": "List Slide",
+			"name": 7,
+			"data": {
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false
+				},
+				"list": [
+					" Tripping over loose objects on floors, stairs and platforms.",
+					"Slipping on greasy, wet or dirty surfaces.",
+					"Striking against projecting, poorly stacked items or misplaced material.",
+					"Cutting yourself on projecting nails, wire or steel strapping."
+				],
+				"title": "Poor housekeeping can be a cause of accidents, such as:"
+			},
+			"type": "list",
+			"metadata": {
+				"questions": []
+			},
+			"id": "ffe1a621-ae93-62de-5f6b-5d2d7196ec16"
+		},
+		{
+			"templateDescription": "Tap on an image to see more detail",
+			"templateName": "Image Collection",
+			"type": "image-collection",
+			"data": {
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false
+				},
+				"background": "",
+				"lightbox": false,
+				"prompt": "Tap each image for more details",
+				"images": [
+					{
+						"content": "In some jobs, enclosures and exhaust ventilation systems may fail to collect dust, dirt and chips adequately.\n\nWood shavings, waste and refuse need to be **swept up regularly.**",
+						"image": "fit_content_assets/image-collection.images[0].image-1481000929486.png"
+					},
+					{
+						"content": "The best way to control spills is to stop them before they happen. \n\nWhen spills do occur, it is important to clean them up immediately. Absorbent materials are useful for wiping up greasy, oily or other liquid spills. \n\nUsed absorbents must be **disposed of properly and safely.**",
+						"image": "fit_content_assets/image-collection.images[1].image-1481000931830.png"
+					},
+					{
+						"content": "Tool housekeeping is very important, whether in the tool room, on the rack, in the yard, or on the bench. \n\nTools require suitable fixtures with marked locations to provide orderly arrangement, both in the tool room and near the work bench. \n\nReturning them **promptly after use** reduces the chance of being misplaced or lost.",
+						"image": "fit_content_assets/image-collection.images[2].image-1481000917809.png"
+					}
+				],
+				"title": "Examples of critical housekeeping tasks"
+			},
+			"name": 8,
+			"metadata": {
+				"questions": []
+			},
+			"id": "94b317dd-d7df-c262-8d7f-bc0c3c15c2c2"
+		},
+		{
+			"templateName": "Strike-out",
+			"name": 9,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": 1
+				},
+				"prompt": "Cross out the incorrect words",
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "Clean up any spills **as soon as possible** with absorbent materials.\n\nWarning signs must also be displayed and/or temporary barricades should be put in place."
+				},
+				"words": [
+					{
+						"replaces": "immediately",
+						"incorrect": "at your leisure"
+					}
+				],
+				"subtitle": "*Cross out the incorrect words*",
+				"title": "Spills should be cleaned up immediately"
+			},
+			"type": "strikeout",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "f614978f-1e70-447f-b32c-6444ae9509d1",
+							"type": "text",
+							"category": "Spills should be cleaned up at your leisure",
+							"content": "at your leisure"
+						},
+						"answers": [
+							{
+								"id": "23f9e1de-f46b-4f02-b928-03e929dd5a56",
+								"type": "text",
+								"content": "at your leisure",
+								"correct": true
+							},
+							{
+								"id": "6df040e3-19a1-42ac-ae28-e406aeadc4d6",
+								"correct": false,
+								"type": "incorrect-answer"
+							}
+						]
+					}
+				]
+			},
+			"id": "cbe3e31e-02fb-2856-d9c6-c22cb2d13139"
+		},
+		{
+			"templateName": "Drag to Match",
+			"name": 10,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": 1
+				},
+				"prompt": "Drag the images to their labels",
+				"answer": {
+					"takeaway": "",
+					"correct": "That's correct!",
+					"incorrect": "Not quite...",
+					"text": "- Warning lights or signs must clearly identify worksite access and egress.\n- There must be good lighting for night work or when there is poor natural lighting.\n- Equipment and machinery must be kept in safe, efficient working order and in good repair."
+				},
+				"list": [
+					{
+						"name": "Warning lights or signs must clearly identify worksite access and egress.",
+						"nameType": "text",
+						"image": "fit_content_assets/drag-to-match.list[0].image-1481000985674.png",
+						"imageType": "image"
+					},
+					{
+						"name": "Keep equipment and machinery in safe, efficient working order and in good repair.",
+						"nameType": "text",
+						"image": "fit_content_assets/drag-to-match.list[1].image-1481000971263.png",
+						"imageType": "image"
+					},
+					{
+						"name": "There must be good lighting for night work or when there is poor natural lighting.",
+						"nameType": "text",
+						"image": "fit_content_assets/drag-to-match.list[2].image-1481000977221.png",
+						"imageType": "image"
+					}
+				],
+				"reject": true,
+				"title": "Drag the images to the matching housekeeping requirements."
+			},
+			"type": "drag-to-match",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "07eef353-a4a6-409d-8c45-e48cba7a53ab",
+							"type": "image",
+							"category": "Drag the images to the matching housekeeping requirements.",
+							"content": "fit_content_assets/drag-to-match.list[0].image-1481000985674.png"
+						},
+						"answers": [
+							{
+								"id": "db072969-9cc4-4543-98a0-ac5227d5bb6f",
+								"type": "text",
+								"content": "Warning lights or signs must clearly identify worksite access and egress.",
+								"correct": true
+							},
+							{
+								"id": "5f4e1067-d8eb-47d1-9c80-36fc29f86170",
+								"type": "text",
+								"content": "Keep equipment and machinery in safe, efficient working order and in good repair.",
+								"correct": false
+							},
+							{
+								"id": "95cb928d-4bc8-4758-9415-81db89b82779",
+								"type": "text",
+								"content": "There must be good lighting for night work or when there is poor natural lighting.",
+								"correct": false
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "fd491228-5948-465d-b060-0858531bf8c7",
+							"type": "image",
+							"category": "Drag the images to the matching housekeeping requirements.",
+							"content": "fit_content_assets/drag-to-match.list[1].image-1481000971263.png"
+						},
+						"answers": [
+							{
+								"id": "0a569887-e97d-43db-85d3-5a7104028057",
+								"type": "text",
+								"content": "Keep equipment and machinery in safe, efficient working order and in good repair.",
+								"correct": true
+							},
+							{
+								"id": "f447df63-cbff-47d9-9721-c24ad6182030",
+								"type": "text",
+								"content": "Warning lights or signs must clearly identify worksite access and egress.",
+								"correct": false
+							},
+							{
+								"id": "bd52ee9b-ae13-4535-a76c-2cf32effe133",
+								"type": "text",
+								"content": "There must be good lighting for night work or when there is poor natural lighting.",
+								"correct": false
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "01b179b0-cd3a-440b-9716-db4c5d1778bc",
+							"type": "image",
+							"category": "Drag the images to the matching housekeeping requirements.",
+							"content": "fit_content_assets/drag-to-match.list[2].image-1481000977221.png"
+						},
+						"answers": [
+							{
+								"id": "3199ff35-3c89-45fc-9c65-85dc0c7ae346",
+								"type": "text",
+								"content": "There must be good lighting for night work or when there is poor natural lighting.",
+								"correct": true
+							},
+							{
+								"id": "c43bbfa3-feb7-46b8-9f5c-15bf01bc7a7f",
+								"type": "text",
+								"content": "Warning lights or signs must clearly identify worksite access and egress.",
+								"correct": false
+							},
+							{
+								"id": "39831d9b-5c6d-4d24-a240-754717272f0b",
+								"type": "text",
+								"content": "Keep equipment and machinery in safe, efficient working order and in good repair.",
+								"correct": false
+							}
+						]
+					}
+				]
+			},
+			"id": "edb04f2a-c170-d3e7-6c79-ec4ae1a3c70b"
+		},
+		{
+			"templateDescription": "Display a sequence of text.",
+			"templateName": "Text Sequence",
+			"name": 11,
+			"data": {
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false
+				},
+				"label": "Step",
+				"prompt": "Tap to read more",
+				"content": [
+					"• Remove nails from timber and stack in appropriate areas.",
+					"• Operators of plant and equipment must ensure they do not compromise safe access and egress.",
+					"• People or equipment must be prevented from falling into openings, trenches and from scaffolding, etc. ",
+					"• Scrap and waste material must be removed as soon as practical from work areas.",
+					"• Keep the floors and walkways free of materials, timber, boxes, equipment and rubbish."
+				],
+				"title": "Other examples of important housekeeping tasks:"
+			},
+			"type": "text-sequence",
+			"metadata": {
+				"questions": []
+			},
+			"id": "c6cdb0d8-4381-7815-6998-1059794ba4b9"
+		},
+		{
+			"templateName": "True or False",
+			"name": 12,
+			"data": {
+				"challenge_configuration": {
+					"nb_stars": 6
+				},
+				"game": {
+					"stars": {
+						"max": 10000,
+						"min": 1000
+					},
+					"timer": {
+						"limit": 15000
+					}
+				},
+				"trueText": "Correct",
+				"falseText": "Incorrect",
+				"statements": [
+					{
+						"true": true,
+						"text": "All work areas must be clear of trip hazards - remove all tools, leads etc when not in use."
+					},
+					{
+						"true": false,
+						"text": "Nails can be left in timber when stacking it up."
+					},
+					{
+						"true": true,
+						"text": "All spills should be cleaned up as soon as possible. "
+					},
+					{
+						"true": true,
+						"text": "Warning signs or temporary barricades must be displayed around any spills before they are cleaned up. "
+					},
+					{
+						"true": false,
+						"text": "A clean looking patch of your overalls should be used to mop up spills."
+					},
+					{
+						"true": false,
+						"text": "Oily rags should be left in a pile in the corner of the workshop."
+					},
+					{
+						"true": true,
+						"text": "Operators of plant and equipment must ensure they do not compromise safe access and egress."
+					},
+					{
+						"true": false,
+						"text": "Sharp objects are OK on walkways as long as everyone is wearing protective footwear."
+					},
+					{
+						"true": true,
+						"text": "People or equipment must be prevented from falling into openings, trenches and from scaffolding, etc."
+					},
+					{
+						"true": false,
+						"text": "You should use your phone's torch for night work or when there is poor natural lighting."
+					},
+					{
+						"true": true,
+						"text": "There must be clear access to emergency equipment and exits."
+					},
+					{
+						"true": false,
+						"text": "Scrap and waste material can be removed from work areas once a month."
+					},
+					{
+						"true": true,
+						"text": "Warning lights or signs must clearly identify worksite access and egress."
+					}
+				],
+				"prompt": "Swipe to answer",
+				"description": "In this game, you need to swipe **true** statements to the right, and **false** statements about to the left. \n\nToday's topic is **good housekeeping.**\n\nTo earn all available stars, you need to get **10,000 points.**\n\n*Hint: Speedy swiping will earn you more&nbsp;points*",
+				"title": "**Swipe it Right!**"
+			},
+			"type": "game-true-or-false",
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"id": "b52a9010-cac3-4044-a6d8-7843dfe22cbe",
+							"type": "text",
+							"content": "All work areas must be clear of trip hazards - remove all tools, leads etc when not in use."
+						},
+						"answers": [
+							{
+								"id": "4d00e6cb-c402-426a-a1a8-5e4a115d7b00",
+								"content": true,
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "152c77b8-585c-4a51-94db-54b742aa4beb",
+								"content": false,
+								"correct": false,
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "65928a2e-77a6-40c6-86bf-0593b8fe445d",
+							"type": "text",
+							"content": "Nails can be left in timber when stacking it up."
+						},
+						"answers": [
+							{
+								"id": "b6672fa5-6321-49a0-b2de-ce6b135b9488",
+								"content": false,
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "3def925f-d128-4a61-9321-cd188fe48d25",
+								"content": true,
+								"correct": false,
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "6243b5b0-5df6-4de3-83df-214b2f4026c8",
+							"type": "text",
+							"content": "All spills should be cleaned up as soon as possible. "
+						},
+						"answers": [
+							{
+								"id": "d30b9b0f-9ab1-48c9-ba13-4c3620d5a63b",
+								"content": true,
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "be2043dd-224e-4052-a0ed-d46c70b2316d",
+								"content": false,
+								"correct": false,
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"type": "text",
+							"content": "Warning signs or temporary barricades must be displayed around any spills before they are cleaned up. ",
+							"id": "cef89217-d2e4-4574-982c-1298a25533d5"
+						},
+						"answers": [
+							{
+								"content": true,
+								"correct": true,
+								"id": "c46e518d-de73-4158-9b71-fd77b5bacdaf"
+							},
+							{
+								"content": false,
+								"correct": false,
+								"id": "9d7c04b0-d2e2-4c7a-81bf-544051da4c99"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "1e45b436-0e53-4bd4-9a2f-263325cb8831",
+							"type": "text",
+							"content": "A clean looking patch of your overalls should be used to mop up spills."
+						},
+						"answers": [
+							{
+								"id": "2d523a68-ce8c-47e7-91da-60646f17beb8",
+								"content": false,
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "537a99f0-cb3f-4e59-8758-46c4e2d26721",
+								"content": true,
+								"correct": false,
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "e4eadea1-d589-46ad-8097-f30b9730c99d",
+							"type": "text",
+							"content": "Oily rags should be left in a pile in the corner of the workshop."
+						},
+						"answers": [
+							{
+								"id": "c1a5e239-73b3-43be-a04b-3873f86ce9c8",
+								"content": false,
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "dfc43d1b-ab47-4f4c-9765-3481670b7923",
+								"content": true,
+								"correct": false,
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "f996884b-be57-46bc-81da-cf05b3de18a9",
+							"type": "text",
+							"content": "Operators of plant and equipment must ensure they do not compromise safe access and egress."
+						},
+						"answers": [
+							{
+								"id": "06395945-bf6d-4353-a470-c0057138bb78",
+								"content": true,
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "e6579656-d528-424a-9667-65edc7e5980a",
+								"content": false,
+								"correct": false,
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "a645d4d7-f38e-4584-8dcd-e801e8bf8c76",
+							"type": "text",
+							"content": "Sharp objects are OK on walkways as long as everyone is wearing protective footwear."
+						},
+						"answers": [
+							{
+								"id": "cb9931cc-0b5d-4358-a81f-ea10119835e8",
+								"content": false,
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "ac99b2ae-40dd-42a0-a52e-505507fdd602",
+								"content": true,
+								"correct": false,
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "c897784f-749b-4ce4-aaf4-d500055a39cd",
+							"type": "text",
+							"content": "People or equipment must be prevented from falling into openings, trenches and from scaffolding, etc."
+						},
+						"answers": [
+							{
+								"id": "6e6865b8-453c-4427-8830-f1122de75506",
+								"content": true,
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "29f13325-dfbe-4af8-b71f-614b6cb6742e",
+								"content": false,
+								"correct": false,
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "9243fde1-2b77-4bcb-9668-b5178605c28f",
+							"type": "text",
+							"content": "You should use your phone's torch for night work or when there is poor natural lighting."
+						},
+						"answers": [
+							{
+								"id": "a22317a2-4c2a-41d1-8bdf-3eae0fbc2b67",
+								"content": false,
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "41d3190f-c010-4acb-b918-bdc4d52daed6",
+								"content": true,
+								"correct": false,
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "dbce2ed2-62a1-485c-a0b8-f9aa996cb1f7",
+							"type": "text",
+							"content": "There must be clear access to emergency equipment and exits."
+						},
+						"answers": [
+							{
+								"id": "1b68d0cb-c54a-43a1-a3ea-282a53ea42c4",
+								"content": true,
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "100dea9c-e5be-437d-b643-6ae19aacf2b5",
+								"content": false,
+								"correct": false,
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "f523bff2-fdde-4055-8a53-d53b13f6fc69",
+							"type": "text",
+							"content": "Scrap and waste material can be removed from work areas once a month."
+						},
+						"answers": [
+							{
+								"id": "bd348fa9-4676-4d2b-a694-68c322809a01",
+								"content": false,
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "5956c4a8-c9a8-4955-97c9-dfcbc0c0b43d",
+								"content": true,
+								"correct": false,
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"id": "a0a7e830-eb12-42ed-9570-85e32ea1c074",
+							"type": "text",
+							"content": "Warning lights or signs must clearly identify worksite access and egress."
+						},
+						"answers": [
+							{
+								"id": "eceb6f67-4e64-4cbe-aac6-85a8fb7fe82d",
+								"content": true,
+								"correct": true,
+								"type": "text"
+							},
+							{
+								"id": "dc89d4d5-a795-4531-b34d-f7ca7ae2e717",
+								"content": false,
+								"correct": false,
+								"type": "text"
+							}
+						]
+					}
+				]
+			},
+			"id": "7edcd7d9-3824-32da-851e-74e1e34dd93d"
+		},
+		{
+			"templateName": "Exit Lesson",
+			"type": "exit",
+			"permanent": true,
+			"data": {
+				"buttonText": "Exit Lesson",
+				"content": "Nice work. You've reached the end of this lesson.",
+				"title": "**That's it!**"
+			},
+			"name": 13,
+			"metadata": {
+				"questions": []
+			},
+			"id": "44beb968-2d99-a0c0-9f0b-84f3be2b9d0d"
+		}
+	],
+	"title": "Introduction and Overview",
+	"scorm": true,
+	"index": 0,
+	"id": "59d284334eb20800018fc065"
+}
